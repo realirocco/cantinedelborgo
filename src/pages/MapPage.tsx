@@ -1,14 +1,15 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import Map from '../components/map/Map';
+import pois from '../data/pois.json'
 
 const MapPage: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
+      {/* <IonHeader>
         <IonToolbar>
           <IonTitle>Mappa</IonTitle>
         </IonToolbar>
-      </IonHeader>
+      </IonHeader> */}
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>

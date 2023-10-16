@@ -3,7 +3,7 @@ import {MapLibreTileLayer} from './MapLibreTileLayer'
 import { DivIcon } from "leaflet";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css'
-import pois from './pois.json'
+import pois from '../../data/pois.json'
 import './Map.css'
 
 
