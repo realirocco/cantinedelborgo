@@ -1,0 +1,425 @@
+[
+    {
+        "id": 1,
+        "nome": "Ingresso",
+        "numero": 100,
+        "descrizione": "Compra il tuo bicchiere e bevi dove vuoi!!!",
+        "tipo": "cassa",
+        "latitudine": 41.601421,
+        "longitudine": 13.491858
+    },
+    {
+        "id": 2,
+        "nome": "Ingresso",
+        "numero": 101,
+        "descrizione": "Compra il tuo bicchiere e bevi dove vuoi!!!",
+        "tipo": "cassa",
+        "latitudine": 41.600839,
+        "longitudine": 13.49244
+    },
+    {
+        "id": 3,
+        "nome": "Spettacolo",
+        "numero": 102,
+        "descrizione": "musica!!!",
+        "tipo": "musica",
+        "latitudine": 41.600672,
+        "longitudine": 13.492417
+    },
+    {
+        "id": 4,
+        "nome": "Spettacolo",
+        "numero": 103,
+        "descrizione": "musica!!!",
+        "tipo": "musica",
+        "latitudine": 41.601362,
+        "longitudine": 13.490716
+    },
+    {
+        "id": 13,
+        "nome": "Spettacolo",
+        "numero": 104,
+        "descrizione": "musica!!!",
+        "tipo": "musica",
+        "latitudine": 41.601339,
+        "longitudine": 13.491397
+    },
+    {
+        "id": 5,
+        "nome": "Mercatino",
+        "numero": 105,
+        "descrizione": "Mercatino dell'artigianato",
+        "tipo": "negozio",
+        "latitudine": 41.601426,
+        "longitudine": 13.49214
+    },
+    {
+        "id": 6,
+        "nome": "Artisti di strada",
+        "numero": 106,
+        "descrizione": "Artisti di strada.",
+        "tipo": "artista",
+        "latitudine": 41.600925,
+        "longitudine": 13.492277
+    },
+    {
+        "id": 7,
+        "nome": "Baby Park",
+        "numero": 107,
+        "descrizione": "I bambini si divertiranno qui. E tu potrai farti un giro nella festa.",
+        "tipo": "babypark",
+        "latitudine": 41.601663,
+        "longitudine": 13.491459
+    },
+    {
+        "id": 8,
+        "nome": "Servizi Igenici",
+        "numero": 108,
+        "descrizione": "Sebac.",
+        "tipo": "bagni",
+        "latitudine": 41.601482,
+        "longitudine": 13.491883
+    },
+    {
+        "id": 9,
+        "nome": "Servizi Igenici",
+        "numero": 109,
+        "descrizione": "Sebac.",
+        "tipo": "bagni",
+        "latitudine": 41.60114,
+        "longitudine": 13.490571
+    },
+    {
+        "id": 10,
+        "nome": "Servizi Igenici",
+        "numero": 110,
+        "descrizione": "Bagni pubblici comunali.",
+        "tipo": "bagni",
+        "latitudine": 41.600732,
+        "longitudine": 13.492449
+    },
+    {
+        "id": 11,
+        "nome": "Punto primo soccorso",
+        "numero": 111,
+        "descrizione": "Se hai bisogno di aiuto perchè stai male o ti sei ferito, qui troverai chi ti potrà aiutare.",
+        "tipo": "ambulanza",
+        "latitudine": 41.601246,
+        "longitudine": 13.492143
+    },
+    {
+        "id": 12,
+        "nome": "Unità di Strada",
+        "numero": 112,
+        "descrizione": "EXODUS",
+        "tipo": "futura",
+        "latitudine": 41.601325,
+        "longitudine": 13.492023
+    },
+    {
+        "id": 14,
+        "nome": "I Calzoni Di Damiano",
+        "numero": 2,
+        "descrizione": "Calzoni ripieni, focaccia con nutella (dopo le 22:30)",
+        "tipo": "cantina",
+        "latitudine": 41.60095,
+        "longitudine": 13.492
+    },
+    {
+        "id": 15,
+        "nome": "Le Cantine Del Borgo",
+        "numero": 3,
+        "descrizione": "Vino novello",
+        "tipo": "cantina",
+        "latitudine": 41.600918,
+        "longitudine": 13.492058
+    },
+    {
+        "id": 16,
+        "nome": "La Castagnaccia",
+        "numero": 4,
+        "descrizione": "Castagne",
+        "tipo": "cantina",
+        "latitudine": 41.60104,
+        "longitudine": 13.4919
+    },
+    {
+        "id": 17,
+        "nome": "Campa i fa' campa'",
+        "numero": 5,
+        "descrizione": "Braciola di maiale alla brace, patatine fritte, porchetta di pollo",
+        "tipo": "cantina",
+        "latitudine": 41.60095,
+        "longitudine": 13.491928
+    },
+    {
+        "id": 18,
+        "nome": "L'S'nnamb'l'",
+        "numero": 6,
+        "descrizione": "Pan' abbruscat', scarpetta agl' sug', cicura, Seadas Ciociara",
+        "tipo": "cantina",
+        "latitudine": 41.600937,
+        "longitudine": 13.49185
+    },
+    {
+        "id": 19,
+        "nome": "Sangrìa",
+        "numero": 7,
+        "descrizione": "Sangria bianca, sangria rossa, dolci per celiaci",
+        "tipo": "cantina",
+        "latitudine": 41.601086,
+        "longitudine": 13.491226
+    },
+    {
+        "id": 20,
+        "nome": "A Magara Ca Uo' Magna'",
+        "numero": 8,
+        "descrizione": "Fagioli con salsiccia e manzo, cosciotto di maiale al forno, fazzoletti di pasta fillo ripieni",
+        "tipo": "cantina",
+        "latitudine": 41.601152,
+        "longitudine": 13.491145
+    },
+    {
+        "id": 21,
+        "nome": "Cantina Luciani",
+        "numero": 9,
+        "descrizione": "Spiedino di mozzarella di bufala e prosciutto, misto di formaggi con uva",
+        "tipo": "cantina",
+        "latitudine": 41.601207,
+        "longitudine": 13.491065
+    },
+    {
+        "id": 22,
+        "nome": "Gastronomia Fabrizio",
+        "numero": 10,
+        "descrizione": "Panini con salsiccia, hot dog",
+        "tipo": "cantina",
+        "latitudine": 41.601276,
+        "longitudine": 13.490968
+    },
+    {
+        "id": 23,
+        "nome": "Magna, Balla E Fregatenn'",
+        "numero": 11,
+        "descrizione": "Maltagliati e fagioli, trippa alla romana",
+        "tipo": "cantina",
+        "latitudine": 41.60116,
+        "longitudine": 13.49125
+    },
+    {
+        "id": 24,
+        "nome": "L' Ciamm'llar'",
+        "numero": 13,
+        "descrizione": "Ciambelle di pane, ciambelline al vino, ciambelle scottolate, ciambelle con glassa",
+        "tipo": "cantina",
+        "latitudine": 41.601249,
+        "longitudine": 13.491395
+    },
+    {
+        "id": 25,
+        "nome": "Ess' Chiss'",
+        "numero": 14,
+        "descrizione": "Pizza",
+        "tipo": "cantina",
+        "latitudine": 41.601168,
+        "longitudine": 13.491325
+    },
+    {
+        "id": 26,
+        "nome": "C'Ulem' Prua'",
+        "numero": 15,
+        "descrizione": "Colata di caciocavallo dolce e affumicato su pane caldo",
+        "tipo": "cantina",
+        "latitudine": 41.601298,
+        "longitudine": 13.491465
+    },
+    {
+        "id": 27,
+        "nome": "Chiss' Le Gotte",
+        "numero": 17,
+        "descrizione": "Mortadella alla piastra, focaccia con mortadella",
+        "tipo": "cantina",
+        "latitudine": 41.601199,
+        "longitudine": 13.491704
+    },
+    {
+        "id": 28,
+        "nome": "L'Sciorn'",
+        "numero": 18,
+        "descrizione": "P'zzell' d' Natal' con baccalà, uva passa e semplici",
+        "tipo": "cantina",
+        "latitudine": 41.60139,
+        "longitudine": 13.49135
+    },
+    {
+        "id": 29,
+        "nome": "C'Uo'N'Feg't'",
+        "numero": 19,
+        "descrizione": "Coratella",
+        "tipo": "cantina",
+        "latitudine": 41.601478,
+        "longitudine": 13.491157
+    },
+    {
+        "id": 30,
+        "nome": "La Stretta",
+        "numero": 20,
+        "descrizione": "Dolci forno a legna, semifreddi, caffè",
+        "tipo": "cantina",
+        "latitudine": 41.601492,
+        "longitudine": 13.491145
+    },
+    {
+        "id": 31,
+        "nome": "La Caciarola",
+        "numero": 21,
+        "descrizione": "Porchetta, formaggi, coppiette e salumi",
+        "tipo": "cantina",
+        "latitudine": 41.601534,
+        "longitudine": 13.491102
+    },
+    {
+        "id": 32,
+        "nome": "Rifùgiati In Cantina",
+        "numero": 22,
+        "descrizione": "Riso Basmati afro-bangla con spezzatino di vitello speziato",
+        "tipo": "cantina",
+        "latitudine": 41.601632,
+        "longitudine": 13.491211
+    },
+    {
+        "id": 33,
+        "nome": "Diaul' arrait'",
+        "numero": 23,
+        "descrizione": "Cot'c' i faciuor', bomba strangolagallese, pan' fatt' da 'Ngeletta",
+        "tipo": "cantina",
+        "latitudine": 41.601579,
+        "longitudine": 13.49107
+    },
+    {
+        "id": 34,
+        "nome": "La Ciammaruca",
+        "numero": 24,
+        "descrizione": "Lumache al sugo, frittelle di mele, mele cotogne al vino rosso",
+        "tipo": "cantina",
+        "latitudine": 41.601629,
+        "longitudine": 13.49085
+    },
+    {
+        "id": 35,
+        "nome": "Le Delizie Di Emma",
+        "numero": 25,
+        "descrizione": "Cod' d' sor'ca alla campagnaola, cacio e pepe, pappardelelle al cinghiale",
+        "tipo": "cantina",
+        "latitudine": 41.6016,
+        "longitudine": 13.49082
+    },
+    {
+        "id": 36,
+        "nome": "Gent' Allegra Dio L'Aiuta",
+        "numero": 26,
+        "descrizione": "Pecora al sugo, gnocchi al sugo",
+        "tipo": "cantina",
+        "latitudine": 41.60179,
+        "longitudine": 13.490652
+    },
+    {
+        "id": 37,
+        "nome": "Gl' Zapp'",
+        "numero": 27,
+        "descrizione": "Arrosticini di pecora",
+        "tipo": "cantina",
+        "latitudine": 41.601661,
+        "longitudine": 13.490606
+    },
+    {
+        "id": 38,
+        "nome": "I Magnun'",
+        "numero": 28,
+        "descrizione": "Gnocchetti con cozze, guanciale e pecorino",
+        "tipo": "cantina",
+        "latitudine": 41.601554,
+        "longitudine": 13.490595
+    },
+    {
+        "id": 39,
+        "nome": "Attilie Duudor'",
+        "numero": 29,
+        "descrizione": "Stese semplici, ripiene, senza glutine",
+        "tipo": "cantina",
+        "latitudine": 41.601535,
+        "longitudine": 13.490606
+    },
+    {
+        "id": 40,
+        "nome": "Da Zio Rocco",
+        "numero": 30,
+        "descrizione": "Baccalà fritto, frittura di pesce al cartoccio",
+        "tipo": "cantina",
+        "latitudine": 41.601287,
+        "longitudine": 13.490729
+    },
+    {
+        "id": 41,
+        "nome": "Gl' C'mpar' p'rchitt'",
+        "numero": 31,
+        "descrizione": "Costolette di maiale con peperoni",
+        "tipo": "cantina",
+        "latitudine": 41.600972,
+        "longitudine": 13.490946
+    },
+    {
+        "id": 42,
+        "nome": "I Dolci Di Anna E Sonia",
+        "numero": 32,
+        "descrizione": "Crostate assortite, cheese-cake, torte di frutta, torte con cocco-nutella-menta, crema di limone, ricotta e cioccolato",
+        "tipo": "cantina",
+        "latitudine": 41.600883,
+        "longitudine": 13.491461
+    },
+    {
+        "id": 44,
+        "nome": "La Locanda Del Passante",
+        "numero": 34,
+        "descrizione": "Fettuccine al Cabernet-porcini-noci, uovo fritto con tartufo, patate e porcini al forno",
+        "tipo": "cantina",
+        "latitudine": 41.600869,
+        "longitudine": 13.491681
+    },
+    {
+        "id": 45,
+        "nome": "Tutti Al Cucuzzaro",
+        "numero": 35,
+        "descrizione": "Gnocchi di zucca, parmigiana di zucca, zucca alla griglia",
+        "tipo": "cantina",
+        "latitudine": 41.600797,
+        "longitudine": 13.492082
+    },
+    {
+        "id": 46,
+        "nome": "La Radicula",
+        "numero": 36,
+        "descrizione": "Grigliata mista: agnello, bistecca di manzo, pancetta",
+        "tipo": "cantina",
+        "latitudine": 41.600725,
+        "longitudine": 13.492238
+    },
+    {
+        "id": 47,
+        "nome": "Cibo Di Strada",
+        "numero": 37,
+        "descrizione": "Patata scavata con: ragù di scottona, spezzatino di pecora, fughi porcini - cozze fagioli, fonduta di formaggi",
+        "tipo": "cantina",
+        "latitudine": 41.600675,
+        "longitudine": 13.492562
+    },
+    {
+        "id": 48,
+        "nome": "Peppino e Rosetta",
+        "numero": 38,
+        "descrizione": "M'nestra c'l'pan' sott', panzerotti fritti ripieni, mozzarella in carrozza",
+        "tipo": "cantina",
+        "latitudine": 41.600679,
+        "longitudine": 13.492723
+    }
+]

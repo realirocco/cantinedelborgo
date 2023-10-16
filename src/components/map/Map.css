@@ -1,0 +1,56 @@
+.leaflet-container,
+.leaflet-retina {
+	width: 100%;
+	height: 100%;
+}
+
+.leaflet-popup-content{
+    text-align: center;
+}
+
+.map-icon{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    overflow: hidden;
+    color: transparent;
+}
+
+.map-icon i{
+    padding: 4% 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+}
+
+.cantina{
+    background-image: url('/asset/cantina.png');
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cassa{
+    background-image: url('/asset/cassa.png');
+}
+
+.musica{
+    background-image: url('/asset/musica.png');
+}
+
+.negozio{
+    background-image: url('/asset/negozio.png');
+}
+
+.artista{
+    background-image: url('/asset/artista.png');
+}
+
+.babypark{
+    background-image: url('/asset/baby-park.png');
+}
+
+.bagni{
+    background-image: url('/asset/bagno.png');
+}
