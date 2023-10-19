@@ -5,11 +5,6 @@ import pois from '../data/pois.json'
 const ListPage: React.FC = () => {
   return (
     <IonPage>
-    {/* <IonHeader>
-      <IonToolbar>
-        <IonTitle>Menù</IonTitle>
-      </IonToolbar>
-    </IonHeader> */}
     <IonContent fullscreen>
       <IonHeader collapse="condense">
         <IonToolbar>
@@ -19,7 +14,7 @@ const ListPage: React.FC = () => {
     {pois
       .filter(poi => poi.tipo === "cantina")
       .map(poi => (
-      <IonCard>
+      <IonCard href={'/map/'+poi.id}>
         <IonCardHeader>
           <IonCardTitle>{poi.nome}</IonCardTitle>
           <IonCardSubtitle>Cantina numero {poi.numero}</IonCardSubtitle>

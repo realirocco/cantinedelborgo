@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import {MapLibreTileLayer} from './MapLibreTileLayer'
+import { MapLibreTileLayer } from './MapLibreTileLayer'
 import L, { DivIcon, LatLng } from "leaflet";
 import { MapContainer, Marker, Popup, useMapEvents } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css'
-import pois from '../../data/pois.json'
 import './Map.css'
 
 
@@ -42,20 +41,20 @@ function customIcon(text:number, type:string){
 
 export default class Map extends React.Component {
     
+    declare props: Readonly<{}>;
+    
     componentDidMount(){
         window.dispatchEvent(new Event('resize')); 
     }
-      
     render() {
-            
         return (
-            <MapContainer center={[41.601378, 13.491210]} minZoom={18} zoom={18} maxZoom={20} 
-                maxBounds={[[41.602628, 13.488575],[41.600278, 13.494099]]} maxBoundsViscosity={0.7}>
+            <MapContainer center={this.props.center} minZoom={18} zoom={18} maxZoom={20} maxBoundsViscosity={0.7}
+                maxBounds={[[41.599058725192066,13.494269388870377],[41.60354185670721,13.488181539478814]]}>
                 <MapLibreTileLayer
                     attribution='&copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/about" target="_blank">OpenStreetMap</a> contributors'
                     url="https://api.maptiler.com/maps/c25fe359-74e8-45c6-8d2d-bf5da6a2b36b/style.json?key=SwF3JvuRnEwDx2MufjH5"
                 />
-                {pois.map(poi => (
+                {this.props.markers.map(poi => (
                     <Marker
                         key={poi.id}
                         icon={customIcon(poi.numero, poi.tipo)}
