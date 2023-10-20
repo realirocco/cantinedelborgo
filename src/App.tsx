@@ -36,9 +36,6 @@ import './theme/variables.css';
 
 setupIonicReact();
 
-// prova a mettere un listener sull'evento ionRouteDidChange per triggerare resize della finestra
-// esempio https://www.joshmorony.com/building-a-notepad-application-from-scratch-with-ionic-and-stencil-js/
-// usa useRef
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>

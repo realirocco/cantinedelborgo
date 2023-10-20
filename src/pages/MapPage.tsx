@@ -1,8 +1,16 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import Map from '../components/map/Map';
 import pois from '../data/pois.json'
+import { useLocation } from 'react-router';
+import { useEffect } from 'react';
 
 const MapPage: React.FC = () => {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.dispatchEvent(new Event('resize'));
+  },[location])
 
   return (
     <IonPage >
