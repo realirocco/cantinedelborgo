@@ -3,6 +3,7 @@ import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonCard, IonCardC
 import pois from '../data/pois.json'
 import Map from '../components/map/Map';
 import { closeOutline } from 'ionicons/icons';
+import { useLocation } from 'react-router';
 
 function ListPage(props:any){
 
@@ -10,6 +11,13 @@ function ListPage(props:any){
 
   let [poi, setPoi] = useState({})
   let [isOpen, setIsOpen] = useState(false)
+
+  let location = useLocation();
+
+  React.useEffect(() => {
+    setIsOpen(false)
+  }, [location]);
+
 
   return (
     <IonPage>
@@ -33,7 +41,7 @@ function ListPage(props:any){
               </IonCard>
             ))};
       </IonContent>
-      <IonModal ref={modal} isOpen={isOpen} onDidDismiss={(e) => setIsOpen(false)}>
+      <IonModal ref={modal} isOpen={isOpen} onDidDismiss={(e) => setIsOpen(false)} initialBreakpoint={0.75} breakpoints={[0, 0.25, 0.5, 0.75]}>
         <IonHeader>
           <IonToolbar>
             <IonButtons slot="end">
