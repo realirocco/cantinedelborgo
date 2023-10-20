@@ -41,7 +41,7 @@ function ListPage(props:any){
               </IonCard>
             ))};
       </IonContent>
-      <IonModal ref={modal} isOpen={isOpen} onDidDismiss={(e) => setIsOpen(false)} initialBreakpoint={0.75} breakpoints={[0, 0.25, 0.5, 0.75]}>
+      <IonModal ref={modal} isOpen={isOpen} onDidDismiss={(e) => setIsOpen(false)} initialBreakpoint={0.80} >
         <IonHeader>
           <IonToolbar>
             <IonButtons slot="end">
