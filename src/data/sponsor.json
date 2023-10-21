@@ -1,225 +1,273 @@
 [
     {
+        "id": 1,
         "name": "Valid Plastic",
         "value": 200,
-        "image": "sponsor.jpg"
+        "image": "sponsor.jpg",
+        "contacts": {
+            "Sito": "www.validplastic.it"
+        }
     },
     {
+        "id": 2,
         "name": "Studio Dentistico Ragazzoni",
         "value": 100,
         "image": "sponsor.jpg"
     },
     {
+        "id": 3,
         "name": "Tipolito Monticiana",
         "value": 100,
         "image": "sponsor.jpg"
     },
     {
+        "id": 4,
         "name": "Residence San Francesco",
         "value": 100,
         "image": "sponsor.jpg"
     },
     {
+        "id": 5,
         "name": "Reali",
         "value": 100,
         "image": "sponsor.jpg"
     },
     {
+        "id": 6,
         "name": "Commerciale Centro Italia",
         "value": 100,
         "image": "sponsor.jpg"
     },
     {
+        "id": 7,
         "name": "Mizzoni Rent",
         "value": 100,
         "image": "sponsor.jpg"
     },
     {
+        "id": 8,
         "name": "Gruppo Seb",
         "value": 100,
         "image": "sponsor.jpg"
     },
     {
+        "id": 9,
         "name": "Farmacia Poce",
         "value": 100,
         "image": "sponsor.jpg"
     },
     {
+        "id": 10,
         "name": "Farmacia Del Popolo",
         "value": 100,
         "image": "sponsor.jpg"
     },
     {
+        "id": 11,
         "name": "Dvs Impiantistica",
         "value": 100,
         "image": "sponsor.jpg"
     },
     {
+        "id":12,
         "name": "De Vellis Servizi Globali",
         "value": 100,
         "image": "sponsor.jpg"
     },
     {
+        "id": 13,
         "name": "Aranova",
         "value": 100,
         "image": "sponsor.jpg"
     },
     {
+        "id": 14,
         "name": "Giorgio Paniccia Serramenti",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 15,
         "name": "Lisi Caffe’",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 16,
         "name": "Ortofrutticola Compagnone Jean Louis Autoservice Valeri",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 17,
         "name": "Ciolli Caffe’",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 18,
         "name": "Sabina Kiro",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 19,
         "name": "3esse Costruzioni",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 20,
         "name": "Gommista Claudio Viselli",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 21,
         "name": "Cestra Ceramiche",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 22,
         "name": "Coop. Agricola Ripi",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 23,
         "name": "Bar Elisir",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 24,
         "name": "La Protesi Sas",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 25,
         "name": "Mizzoni Onoranze Funebri",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 26,
         "name": "Conad City",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 27,
         "name": "Bar Civico 1",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 28,
         "name": "Centro Commerciale Sementilli",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 29,
         "name": "Autofficina Pernasilici",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 30,
         "name": "Arte Legno",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 31,
         "name": "Taglienti Arcangelo",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 32,
         "name": "Parafarmacia Patrizi",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 33,
         "name": "Sicura Unipol",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 34,
         "name": "Termoidraulica Lisi",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 35,
         "name": "Market One",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 36,
         "name": "Reset",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 37,
         "name": "P.M. Timbering",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 38,
         "name": "Sigma Le Gotte",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 39,
         "name": "Lamellare Mario Belli",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 40,
         "name": "Margherita Conad",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 41,
         "name": "Lisi Impianti",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 42,
         "name": "I Marchesi",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 43,
         "name": "Enzo Carlacci",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 44,
         "name": "Eden Garden",
         "value": 50,
         "image": "sponsor.jpg"
     },
     {
+        "id": 45,
         "name": "DT Serramenti",
         "value": 50,
         "image": "sponsor.jpg"
