@@ -29,16 +29,7 @@ function SponsorPage(){
         <IonGrid fixed={true}>
           <IonRow class='ioion-align-items-center'>
             {sponsors
-              .filter((s) => s.value > 100)
-              .map( (sponsor) => (
-                <IonCol size="12" key={sponsor.id}>
-                  <CardSponsor sponsor={sponsor} />
-                </IonCol>
-              ))}
-          </IonRow>
-          <IonRow class='ioion-align-items-center'>
-            {sponsors
-              .filter((s) => s.value <= 100 && s.value > 50)
+              .filter((s) => s.value > 50)
               .map( (sponsor) => (
                 <IonCol size="6" key={sponsor.id}>
                   <CardSponsor sponsor={sponsor} />
