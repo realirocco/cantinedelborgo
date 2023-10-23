@@ -48,7 +48,7 @@ export default class Map extends React.Component {
     }
     render() {
         return (
-            <MapContainer center={this.props.center} minZoom={18} zoom={19} maxZoom={21} maxBoundsViscosity={0.7}
+            <MapContainer center={this.props.center} minZoom={18} zoom={18} maxZoom={21} maxBoundsViscosity={0.7}
                 maxBounds={[[41.599058725192066,13.494269388870377],[41.60354185670721,13.488181539478814]]}>
                 <MapLibreTileLayer
                     attribution='&copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/about" target="_blank">OpenStreetMap</a> contributors'

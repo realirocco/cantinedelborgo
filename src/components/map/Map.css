@@ -60,9 +60,9 @@
 }
 
 .ambulanza{
-    background-image: url('asset/ambulanza.png');
+    background-image: url('/asset/ambulanza.png');
 }
 
 .arte{
-    background-image: url('asset/arte.png');
+    background-image: url('/asset/arte.png');
 }
