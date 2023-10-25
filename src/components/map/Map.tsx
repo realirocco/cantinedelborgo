@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { MapLibreTileLayer } from './MapLibreTileLayer'
 import L, { DivIcon, LatLng } from "leaflet";
-import { MapContainer, Marker, Popup, useMapEvents } from 'react-leaflet';
+import { ImageOverlay, MapContainer, Marker, Popup, useMapEvents } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css'
 import './Map.css'
 
@@ -10,7 +9,9 @@ function LocalPosition(){
     const [position, setPosition] = useState(new LatLng(0,0));
     const map = useMapEvents({
         locationfound(e) {
-            setPosition(e.latlng)
+            if(e.latlng.distanceTo(position) > 10){
+                setPosition(e.latlng)
+            }
         }
     });
     map.locate({
@@ -18,7 +19,6 @@ function LocalPosition(){
         timeout: 1000,
         enableHighAccuracy: true
     })
-    
     return(
         <Marker position={position} icon={customIcon(0, "qui")} >
             <Popup>Sei qui!</Popup>
@@ -48,12 +48,13 @@ export default class Map extends React.Component {
     }
     render() {
         return (
-            <MapContainer center={this.props.center} minZoom={18} zoom={18} maxZoom={21} maxBoundsViscosity={0.7}
-                maxBounds={[[41.599058725192066,13.494269388870377],[41.60354185670721,13.488181539478814]]}>
-                <MapLibreTileLayer
-                    attribution='&copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/about" target="_blank">OpenStreetMap</a> contributors'
-                    url="https://api.maptiler.com/maps/c25fe359-74e8-45c6-8d2d-bf5da6a2b36b/style.json?key=SwF3JvuRnEwDx2MufjH5"
-                />
+            <MapContainer center={this.props.center} minZoom={18} zoom={18} maxZoom={21} maxBoundsViscosity={1}
+                 maxBounds={[[41.6025,13.48876476287842],[41.599477,13.49585]]} >
+                <ImageOverlay
+                    url={'/asset/map.png'}
+                    opacity={1}
+                    bounds={[[41.6025,13.48876476287842],[41.599477,13.49585]]} />
+                    
                 {this.props.markers.map(poi => (
                     <Marker
                         key={poi.id}
