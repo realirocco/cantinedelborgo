@@ -1,23 +1,30 @@
 import React, { useRef, useState } from 'react';
-import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonModal, IonButtons, IonButton, IonIcon } from '@ionic/react';
+import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonModal, IonButtons, IonButton, IonIcon, IonSearchbar } from '@ionic/react';
 import pois from '../data/pois.json'
 import Map from '../components/map/Map';
 import { closeOutline } from 'ionicons/icons';
 import { useLocation } from 'react-router';
 
+function filterPoi(poi:any, filter:String){
+  let nome = poi.nome.toLowerCase()
+  let descrizione = poi.descrizione.toLowerCase()
+  return nome.indexOf(filter) > -1 || descrizione.indexOf(filter) > -1
+}
+
 function ListPage(props:any){
 
   let modal = useRef<HTMLIonModalElement>(null);
+  let searchbar = useRef<HTMLIonSearchbarElement>(null);
 
   let [poi, setPoi] = useState({})
   let [isOpen, setIsOpen] = useState(false)
+  let [searchValue, setSearchValue] = useState("")
 
   let location = useLocation();
 
   React.useEffect(() => {
     setIsOpen(false)
   }, [location]);
-
 
   return (
     <IonPage>
@@ -26,9 +33,13 @@ function ListPage(props:any){
           <IonToolbar>
             <IonTitle size="large">Menù delle cantine</IonTitle>
           </IonToolbar>
+          <IonToolbar>
+            <IonSearchbar ref={searchbar} placeholder="Cerca il menù o la cantina" onIonInput={(e) => setSearchValue(e.detail.value?.toLowerCase())} />
+          </IonToolbar>
         </IonHeader>
           {pois
             .filter(poi => poi.tipo === "cantina")
+            .filter(poi => filterPoi(poi, searchValue))
             .map(poi => (
               <IonCard key={poi.id} onClick={(e) => {setPoi(poi); setIsOpen(true)}}>
                 <IonCardHeader>
