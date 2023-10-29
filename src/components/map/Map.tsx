@@ -4,13 +4,35 @@ import { ImageOverlay, MapContainer, Marker, Popup, useMapEvents } from 'react-l
 import 'leaflet/dist/leaflet.css'
 import './Map.css'
 
+function getAveragePosition(positions: LatLng[]):LatLng {
+    if (positions.length === 0) {
+        return new LatLng(0,0);
+    }
+
+    let totalLat = 0;
+    let totalLng = 0;
+
+    for (const position of positions) {
+        totalLat += position.lat;
+        totalLng += position.lng;
+    }
+
+    const averageLat = totalLat / positions.length;
+    const averageLng = totalLng / positions.length;
+
+    return new LatLng(averageLat,averageLng);
+}
 
 function LocalPosition(){
+    const [lastPositions] = useState(new Array<LatLng>());
     const [position, setPosition] = useState(new LatLng(0,0));
     const map = useMapEvents({
         locationfound(e) {
-            if(e.latlng.distanceTo(position) > 10){
-                setPosition(e.latlng)
+            lastPositions.push(e.latlng);
+            const averagePosition:LatLng = getAveragePosition(lastPositions);
+            setPosition(averagePosition);
+            if(lastPositions.length > 10){
+                lastPositions.shift();
             }
         }
     });
