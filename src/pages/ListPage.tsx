@@ -11,6 +11,16 @@ function filterPoi(poi:any, filter:String){
   return nome.indexOf(filter) > -1 || descrizione.indexOf(filter) > -1
 }
 
+function highlight(text:string|undefined, search:string){
+  var highlight = text || "";
+  if(search && text){
+    var searchString = search.replace(/[^a-zA-Z0-9]/,search);
+    var searchRegExp = new RegExp('(' + searchString + ')', "gi");
+    highlight = text.replace(searchRegExp, "<strong>$1</strong>");
+  }
+  return <span dangerouslySetInnerHTML={{__html:highlight}}/>
+}
+
 function ListPage(props:any){
 
   let modal = useRef<HTMLIonModalElement>(null);
@@ -39,15 +49,15 @@ function ListPage(props:any){
         </IonHeader>
           {pois
             .filter(poi => poi.tipo === "cantina")
-            .filter(poi => filterPoi(poi, searchValue))
+            .filter(poi => filterPoi(poi, searchValue))              
             .map(poi => (
               <IonCard key={poi.id} onClick={(e) => {setPoi(poi); setIsOpen(true)}}>
                 <IonCardHeader>
-                  <IonCardTitle>{poi.nome}</IonCardTitle>
                   <IonCardSubtitle>Cantina numero {poi.numero}</IonCardSubtitle>
+                  <IonCardTitle>{highlight(poi.nome,searchValue)}</IonCardTitle>
                 </IonCardHeader>
                 <IonCardContent>
-                  <p>{poi.descrizione}</p>
+                  <p>{highlight(poi.descrizione,searchValue)}</p>
                 </IonCardContent>
               </IonCard>
             ))};
