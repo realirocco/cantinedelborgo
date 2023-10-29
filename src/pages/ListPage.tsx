@@ -68,8 +68,8 @@ function ListPage(props:any){
             <IonButtons slot="end">
               <IonButton onClick={() => setIsOpen(false)}><IonIcon icon={closeOutline}/></IonButton>
             </IonButtons>
-            <IonTitle size="large">{poi.nome}</IonTitle>
             <IonTitle size='small'>Cantina n.{poi.numero}</IonTitle>
+            <IonTitle size="large">{poi.nome}</IonTitle>
           </IonToolbar>
           <IonToolbar>
             <IonTitle size='small'>{poi.descrizione}</IonTitle>
