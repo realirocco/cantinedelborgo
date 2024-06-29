@@ -1,6 +1,6 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import Map from '../components/map/Map';
-import pois from '../data/pois.json'
+import pois from '../data/pois'
 import { useLocation } from 'react-router';
 import { useEffect } from 'react';
 

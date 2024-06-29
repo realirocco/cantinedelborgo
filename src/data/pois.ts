@@ -1,9 +1,11 @@
-[
+import {Poi} from '../components/map/Poi';
+
+var pois:Array<Poi> = [
     {
         "id": 1,
         "nome": "L'S'nnamb'l'",
         "numero": 1,
-        "descrizione": "Sagn’ i faciuor’(oppure asparagi – ceci e guanciale), stinco di maiale arrosto",
+        "descrizione": "Sagn’ i faciuor’ (oppure asparagi - ceci e guanciale), stinco di maiale arrosto",
         "tipo": "cantina",
         "latitudine": 41.60096665639647,
         "longitudine": 13.49175810813904
@@ -319,6 +321,7 @@
     {
         "id": 101,
         "nome": "Ingresso",
+        "numero": 0, 
         "descrizione": "Compra il tuo bicchiere e bevi dove vuoi!!!",
         "tipo": "cassa",
         "latitudine": 41.60101679939535,
@@ -327,6 +330,7 @@
     {
         "id": 102,
         "nome": "Ingresso",
+        "numero": 0, 
         "descrizione": "Compra il tuo bicchiere e bevi dove vuoi!!!",
         "tipo": "cassa",
         "latitudine": 41.60098069644007,
@@ -335,6 +339,8 @@
     {
         "id": 201,
         "nome": "Ernicantus",
+        "numero": 0, 
+        "descrizione": "",
         "tipo": "musica",
         "latitudine": 41.601313645150746,
         "longitudine": 13.491320908069612
@@ -342,13 +348,17 @@
     {
         "id": 202,
         "nome": "Cerroni band",
-        "tipo": "musica",
+        "numero": 0, 
+        "descrizione": "",
+       "tipo": "musica",
         "latitudine": 41.60068284628836,
         "longitudine": 13.492412567138674
     },
     {
         "id": 203,
         "nome": "Strimpellaciocia",
+        "numero": 0, 
+        "descrizione": "",
         "tipo": "musica",
         "latitudine": 41.60112109670826,
         "longitudine": 13.490840792655947
@@ -356,6 +366,7 @@
     {
         "id": 204,
         "nome": "jkerr",
+        "numero": 0, 
         "descrizione": "spettacolo dalle 23:00",
         "tipo":"musica",
         "latitudine": 41.60092754483027,
@@ -364,6 +375,7 @@
     {
         "id": 301,
         "nome": "Mercatino",
+        "numero": 0, 
         "descrizione": "Mercatino dell'artigianato",
         "tipo": "negozio",
         "latitudine": 41.60094158488242,
@@ -372,6 +384,7 @@
     {
         "id": 401,
         "nome": "Artisti di strada",
+        "numero": 0, 
         "descrizione": "Artisti di strada.",
         "tipo": "artista",
         "latitudine": 41.60093957916087,
@@ -380,6 +393,7 @@
     {
         "id": 501,
         "nome": "Baby Park",
+        "numero": 0, 
         "descrizione": "I bambini si divertiranno qui. E tu potrai farti un giro nella festa.",
         "tipo": "babypark",
         "latitudine": 41.60129258519283,
@@ -388,6 +402,7 @@
     {
         "id": 108,
         "nome": "Servizi Igenici",
+        "numero": 0, 
         "descrizione": "Sebac.",
         "tipo": "bagni",
         "latitudine": 41.60187323580053,
@@ -396,6 +411,7 @@
     {
         "id": 109,
         "nome": "Servizi Igenici",
+        "numero": 0, 
         "descrizione": "Sebac.",
         "tipo": "bagni",
         "latitudine": 41.601137142433736,
@@ -404,6 +420,7 @@
     {
         "id": 110,
         "nome": "Servizi Igenici",
+        "numero": 0, 
         "descrizione": "Bagni pubblici comunali.",
         "tipo": "bagni",
         "latitudine": 41.600787144140995,
@@ -412,6 +429,7 @@
     {
         "id": 111,
         "nome": "Punto primo soccorso",
+        "numero": 0, 
         "descrizione": "Se hai bisogno di aiuto perchè stai male o ti sei ferito, qui troverai chi ti potrà aiutare.",
         "tipo": "ambulanza",
         "latitudine": 41.600820238616706,
@@ -420,6 +438,7 @@
     {
         "id": 112,
         "nome": "Punto primo soccorso",
+        "numero": 0, 
         "descrizione": "Se hai bisogno di aiuto perchè stai male o ti sei ferito, qui troverai chi ti potrà aiutare.",
         "tipo": "ambulanza",
         "latitudine": 41.60089043896353,
@@ -428,10 +447,12 @@
     {
         "id": 113,
         "nome": "Mostra d'arte",
+        "numero": 0, 
         "descrizione": "Mostra di lavori dell'artista locale Fabiana Fioretti",
         "tipo": "arte",
         "latitudine": 41.601171239587146,
         "longitudine": 13.491231054067613
     }
-   
-]
+];
+
+export default pois;

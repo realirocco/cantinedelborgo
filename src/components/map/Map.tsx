@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import L, { DivIcon, LatLng } from "leaflet";
+import L, { DivIcon, LatLng, LatLngExpression } from "leaflet";
 import { ImageOverlay, MapContainer, Marker, Popup, useMapEvents } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css'
 import './Map.css'
+import { Poi } from './Poi';
 
 function getAveragePosition(positions: LatLng[]):LatLng {
     if (positions.length === 0) {
@@ -63,7 +64,7 @@ function customIcon(text:number, type:string){
 
 export default class Map extends React.Component {
     
-    declare props: Readonly<{}>;
+    declare props: Readonly<{center: LatLngExpression, markers: Array<Poi>}>;
     
     componentDidMount(){
         window.dispatchEvent(new Event('resize')); 
