@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonModal, IonButtons, IonButton, IonIcon, IonSearchbar } from '@ionic/react';
-import pois from '../data/pois.json'
+import pois from '../data/pois'
 import Map from '../components/map/Map';
 import { closeOutline } from 'ionicons/icons';
 import { useLocation } from 'react-router';

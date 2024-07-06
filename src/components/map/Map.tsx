@@ -3,7 +3,7 @@ import L, { DivIcon, LatLng, LatLngExpression } from "leaflet";
 import { ImageOverlay, MapContainer, Marker, Popup, useMapEvents } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css'
 import './Map.css'
-import { Poi } from './Poi';
+import { Poi } from '../../util/Poi';
 
 function getAveragePosition(positions: LatLng[]):LatLng {
     if (positions.length === 0) {

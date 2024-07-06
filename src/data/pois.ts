@@ -1,4 +1,4 @@
-import {Poi} from '../components/map/Poi';
+import {Poi} from '../util/Poi';
 
 var pois:Array<Poi> = [
     {
