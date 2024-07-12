@@ -6,63 +6,7 @@ import './TransportMap.css'
 import { Client, Databases, Models } from 'appwrite';
 import track from '../../data/track';
 import { Poi } from '../../util/Poi';
-import { Bus } from './Bus';
-
-
-function getAveragePosition(positions: LatLng[]):LatLng {
-    if (positions.length === 0) {
-        return new LatLng(0,0);
-    }
-
-    let totalLat = 0;
-    let totalLng = 0;
-
-    for (const position of positions) {
-        totalLat += position.lat;
-        totalLng += position.lng;
-    }
-
-    const averageLat = totalLat / positions.length;
-    const averageLng = totalLng / positions.length;
-
-    return new LatLng(averageLat,averageLng);
-}
-
-function ClickEvent() {
-    const map = useMapEvents({ click(){}})
-    var path = []
-    map.on("click", (event) =>{
-        path.push([event.latlng.lat,event.latlng.lng])
-        console.log(JSON.stringify(path));
-    })
-    return("");
-  }
-  
-
-  function LocalPosition(){
-    const [lastPositions] = useState(new Array<LatLng>());
-    const [position, setPosition] = useState(new LatLng(0,0));
-    const map = useMapEvents({
-        locationfound(e) {
-            lastPositions.push(e.latlng);
-            const averagePosition:LatLng = getAveragePosition(lastPositions);
-            setPosition(averagePosition);
-            if(lastPositions.length > 10){
-                lastPositions.shift();
-            }
-        }
-    });
-    map.locate({
-        watch: true,
-        timeout: 1000,
-        enableHighAccuracy: true
-    })
-    return(
-        <Marker position={position} icon={customIcon(0, "qui")} >
-            <Popup>Sei qui!</Popup>
-        </Marker>
-    )
-}
+import LocalPosition from '../localposition/LocalPosition';
 
 function Buses(){
     let client = new Client()           
@@ -122,7 +66,6 @@ export default class TransportMap extends React.Component {
                 />
                 <Polyline positions={track} weight={10}/>
                 <LocalPosition/>
-                <ClickEvent/>
                 <Buses/>
             </MapContainer>
         );
