@@ -1,10 +1,10 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import Map from '../components/map/Map';
+import Map from '../components/map/EventMap';
 import pois from '../data/pois'
 import { useLocation } from 'react-router';
 import { useEffect } from 'react';
 
-const MapPage: React.FC = () => {
+const EventMapPage: React.FC = () => {
 
   const location = useLocation();
 
@@ -26,4 +26,4 @@ const MapPage: React.FC = () => {
   );
 };
 
-export default MapPage;
+export default EventMapPage;

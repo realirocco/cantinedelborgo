@@ -20,7 +20,7 @@ function customIcon(text:number, type:string){
 }
 
 
-export default class Map extends React.Component {
+export default class EventMap extends React.Component {
     
     declare props: Readonly<{center: LatLngExpression, markers: Array<Poi>}>;
     
@@ -30,16 +30,14 @@ export default class Map extends React.Component {
     render() {
         return (
             <MapContainer center={this.props.center} minZoom={18} zoom={18} maxZoom={21} maxBoundsViscosity={1}
-                 maxBounds={[[41.6025,13.48876476287842],[41.599477,13.49585]]} >
-                <ImageOverlay
-                    url={'/asset/map.png'}
-                    opacity={1}
-                    bounds={[[41.6025,13.48876476287842],[41.599477,13.49585]]} />
-                    
+                          maxBounds={[[41.6025,13.48876476287842],[41.599477,13.49585]]} >
+                <ImageOverlay url={'/asset/map.png'}
+                              opacity={1}
+                              bounds={[[41.6025,13.48876476287842],[41.599477,13.49585]]} />
+                <LocalPosition/>
                 {this.props.markers.map(poi => (
                     <MarkerPoi key={poi.id} poi={poi}/>
-                 ))}
-                <LocalPosition/>
+                ))}
             </MapContainer>
         );
     }

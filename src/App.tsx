@@ -11,7 +11,7 @@ import {
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { bus, heart, list, map, square } from 'ionicons/icons';
-import MapPage from './pages/MapPage';
+import EventMapPage from './pages/EventMapPage';
 import TransportPage from './pages/TransportPage';
 import ListPage from './pages/ListPage';
 import SponsorPage from './pages/SponsorPage';
@@ -43,7 +43,7 @@ const App: React.FC = () => (
       <IonTabs>
         <IonRouterOutlet>
           <Route exact path="/map">
-            <MapPage />
+            <EventMapPage />
           </Route>
           <Route exact path="/list">
             <ListPage />
