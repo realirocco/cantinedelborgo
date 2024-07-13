@@ -2,6 +2,7 @@ import React from "react";
 import { BusDoc, client, databases } from '../appwrite/AppWrite'
 import { LatLng } from "leaflet";
 import { Marker } from "react-leaflet";
+import MarkerPoi from "./MarkerPoi";
 
 export default class Bus extends React.Component {
 
@@ -28,6 +29,12 @@ export default class Bus extends React.Component {
     }
    
     render(){
-        return (<Marker position={this.state?.position ?? [0,0]}></Marker>);
+        return (<MarkerPoi poi={{
+            lat: this.state?.position?.lat ?? 0, 
+            lng: this.state?.position?.lng ?? 0,
+            icon: "ambulanza",
+            title: "navetta 1"
+        }} />
+    );
     }
 }
