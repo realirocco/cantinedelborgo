@@ -1,5 +1,5 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import TransportMap from '../components/transport/TransportMap';
+import TransportMap from '../components/map/TransportMap';
 import pois from '../data/pois'
 import { useLocation } from 'react-router';
 import { useEffect } from 'react';
