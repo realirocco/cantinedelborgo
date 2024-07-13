@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import L, { DivIcon, LatLng, LatLngExpression } from "leaflet";
-import { MapContainer, Marker, Polyline, Popup, TileLayer, useMapEvents } from 'react-leaflet';
+import React from 'react';
+import L, { LatLngExpression } from "leaflet";
+import { MapContainer, Polyline, TileLayer } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css'
 import './TransportMap.css'
 import track from '../../data/track';

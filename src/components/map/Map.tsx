@@ -1,11 +1,10 @@
-import L, { DivIcon, LatLng, LatLngExpression } from "leaflet";
+import React from "react";
+import L, { DivIcon, LatLngExpression } from "leaflet";
 import { ImageOverlay, MapContainer, Marker, Popup, useMapEvents } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css'
 import './Map.css'
 import { Poi } from '../../util/Poi';
 import LocalPosition from '../localposition/LocalPosition'
-import React from "react";
-
 
 function iconContent(text:number, type:string){
     return "<i class="+type+">"+text+"</i>";

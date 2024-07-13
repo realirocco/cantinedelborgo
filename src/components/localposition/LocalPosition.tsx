@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import L, { DivIcon, LatLng } from "leaflet";
 import { Marker, Popup, useMapEvents } from 'react-leaflet';
-import { locate } from 'ionicons/icons';
 
 var LocalPositionIcon = new DivIcon({
     iconSize: L.point([30,30]),
