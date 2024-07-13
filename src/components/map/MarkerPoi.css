@@ -1,0 +1,51 @@
+.map-icon{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    overflow: hidden;
+    color: transparent;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cantina{
+    background-image: url('/asset/cantina.png');
+}
+
+.cassa{
+    background-image: url('/asset/cassa.png');
+}
+
+.musica{
+    background-image: url('/asset/musica.png');
+}
+
+.negozio{
+    background-image: url('/asset/negozio.png');
+}
+
+.artista{
+    background-image: url('/asset/artista.png');
+}
+
+.babypark{
+    background-image: url('/asset/baby-park.png');
+}
+
+.bagni{
+    background-image: url('/asset/bagno.png');
+}
+
+.qui{
+    background-image: url('/asset/qui.png');
+}
+
+.ambulanza{
+    background-image: url('/asset/ambulanza.png');
+}
+
+.arte{
+    background-image: url('/asset/arte.png');
+}
