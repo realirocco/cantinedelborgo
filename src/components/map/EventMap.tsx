@@ -7,18 +7,6 @@ import { Poi } from '../../util/Poi';
 import LocalPosition from '../localposition/LocalPosition'
 import MarkerPoi from "./MarkerPoi";
 
-function iconContent(text:number, type:string){
-    return "<i class="+type+">"+text+"</i>";
-}
-
-function customIcon(text:number, type:string){
-    return new DivIcon({
-        iconSize: L.point([30,30]),
-        className: "map-icon",
-        html: iconContent(text, type),
-    });
-}
-
 
 export default class EventMap extends React.Component {
     
