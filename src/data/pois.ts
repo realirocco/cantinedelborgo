@@ -6,7 +6,7 @@ var pois:Array<Poi> = [
         "title": "L'S'nnamb'l'",
         "iconText": "1",
         "description": "Sagn’ i faciuor’ (oppure asparagi - ceci e guanciale), stinco di maiale arrosto",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60096665639647,
         "lng": 13.49175810813904
     },
@@ -15,7 +15,7 @@ var pois:Array<Poi> = [
         "title": "Dolci Creazioni",
         "iconText": "2",
         "description": "Pasticceria assortita, caffè",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60090899189957,
         "lng": 13.491409420967104
     },
@@ -24,7 +24,7 @@ var pois:Array<Poi> = [
         "title": "La Castagnaccia",
         "iconText": "3",
         "description": "Castagne",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.601055910907455,
         "lng": 13.491413444280626
     },
@@ -33,7 +33,7 @@ var pois:Array<Poi> = [
         "title": "I du' P'rchitt'",
         "iconText": "4",
         "description": "Tagliere con porchetta, salumi, formaggi, pane casereccio",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60109401953744,
         "lng": 13.49157974123955
     },
@@ -42,7 +42,7 @@ var pois:Array<Poi> = [
         "title": "Da Nicolina e Daiano",
         "iconText": "5",
         "description": "Patate a spirale e patate chips, patate fritte",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60118126815826,
         "lng": 13.49163204431534
     },
@@ -52,7 +52,7 @@ var pois:Array<Poi> = [
         "title": "La R'messa",
         "iconText": "6",
         "description": "Cuzzutiello con polpette al ragù o ai funghi, cotiche e faciuor’/ sasicce i faciuor’",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60130963373073,
         "lng": 13.491528779268265
     },
@@ -61,7 +61,7 @@ var pois:Array<Poi> = [
         "title": "C'ulem' prua'",
         "iconText": "7",
         "description": "Caciocavallo impiccato",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60127854521707,
         "lng": 13.491377234458925
     },
@@ -70,7 +70,7 @@ var pois:Array<Poi> = [
         "title": "Agl' cucuzzar",
         "iconText": "8",
         "description": "Gnocchi di zucca con speck e noci",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.6014008934746,
         "lng": 13.491412103176119
     },
@@ -79,7 +79,7 @@ var pois:Array<Poi> = [
         "title": "L' sciorn'",
         "iconText": "9",
         "description": "P’zzell’ d’ Natal’ semplici, con uva passa e con baccalà",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60137181071309,
         "lng": 13.49132761359215
     },
@@ -88,7 +88,7 @@ var pois:Array<Poi> = [
         "title": "Ess' Chiss'",
         "iconText": "10",
         "description": "Polenta con sugo di salsicce e spuntature, focaccia con affettati e verdura",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60118527958626,
         "lng": 13.491328954696657
     },
@@ -97,7 +97,7 @@ var pois:Array<Poi> = [
         "title": "Te'... Azz'ppat' i buat'",
         "iconText": "11",
         "description": "Vin brulè con ciambelline al vino",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60123040813413,
         "lng": 13.491261899471285
     },
@@ -106,7 +106,7 @@ var pois:Array<Poi> = [
         "title": "Gl’ uerr’ ‘nguastit’",
         "iconText": "12",
         "description": "Scialatielli alla curcuma con ragù di cinghiale bianco e tartufo",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60120633957919,
         "lng": 13.490986973047258
     },
@@ -115,7 +115,7 @@ var pois:Array<Poi> = [
         "title": "Il bosco magico",
         "iconText": "13",
         "description": "Colata di caciocavallo dolce e affumicato su pane caldo",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.601323673699724,
         "lng": 13.490856885910036
     },
@@ -124,7 +124,7 @@ var pois:Array<Poi> = [
         "title": "I buongustai",
         "iconText": "14",
         "description": "Maritozzi con panna, bomboloni, pallotte cacio e ova, caffè",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60153828427417,
         "lng": 13.491087555885317
     },
@@ -133,7 +133,7 @@ var pois:Array<Poi> = [
         "title": "Pro loco Strangolagalli",
         "iconText": "15",
         "description": "Trippetta al sugo, coratella",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60162051804348,
         "lng": 13.491192162036898
     },
@@ -142,7 +142,7 @@ var pois:Array<Poi> = [
         "title": "Chiss' Rion",
         "iconText": "16",
         "description": "Pappardelle al cinghiale",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60167667763058,
         "lng": 13.491125106811525
     },
@@ -151,7 +151,7 @@ var pois:Array<Poi> = [
         "title": "Gl' uagliun'",
         "iconText": "17",
         "description": "Crepes alla nutella, caffè",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60159494535815,
         "lng": 13.491023853421211
     },
@@ -160,7 +160,7 @@ var pois:Array<Poi> = [
         "title": "Gl' magnun'",
         "iconText": "18",
         "description": "Gnocchi cozze guanciale e pachino, gnocchi alla norcina",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.601580404022755,
         "lng": 13.490895107388496
     },
@@ -169,7 +169,7 @@ var pois:Array<Poi> = [
         "title": "Mimi' Cocò i Carm'nucc'",
         "iconText": "19",
         "description": "Tris di polentine alla piastra (aglio, olio e peperoncino – broccoletti – funghi) Mortadella alla piastra con contorno",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.601532768590765,
         "lng": 13.490840122103693
     },
@@ -178,7 +178,7 @@ var pois:Array<Poi> = [
         "title": "Cibo di strada",
         "iconText": "20",
         "description": "Pecora al sugo",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60179050092951,
         "lng": 13.49065236747265
     },
@@ -187,7 +187,7 @@ var pois:Array<Poi> = [
         "title": "Da Fabrizio",
         "iconText": "21",
         "description": "Panini con salsiccia, wurstel, hamburger, prosciutto crudo",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60165060354264,
         "lng": 13.490588665008547
     },
@@ -196,7 +196,7 @@ var pois:Array<Poi> = [
         "title": "Peppino e Rosetta",
         "iconText": "22",
         "description": "Stese fritte semplici e farcite, panzerotti",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.601297599469135,
         "lng": 13.490720093250276
     },
@@ -205,7 +205,7 @@ var pois:Array<Poi> = [
         "title": "Gl' Zapp'",
         "iconText": "23",
         "description": "Arrosticini di pecora",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.6009340634263,
         "lng": 13.490980938076973
     },
@@ -214,7 +214,7 @@ var pois:Array<Poi> = [
         "title": "Azienda agricola AgriTwins",
         "iconText": "24",
         "description": "Agnello alla scottadito, poker di bruschette, m’nestra c’ l’ pan’ sott’",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60089495184036 ,
         "lng": 13.491130471229555 
     },    
@@ -223,7 +223,7 @@ var pois:Array<Poi> = [
         "title": "Gionzies",
         "iconText": "25",
         "description": "Tortiglioni alla carbonara tartufata, bruschettone con pancetta alla piastra e broccoletti",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60088341893227,
         "lng": 13.491398692131042
     },
@@ -233,7 +233,7 @@ var pois:Array<Poi> = [
         "title": "Le bontà siciliane",
         "iconText": "26",
         "description": "Arancine, cannoli siciliani, pane e panelle, caffè",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60087840462377,
         "lng": 13.491479158401491
     },
@@ -242,7 +242,7 @@ var pois:Array<Poi> = [
         "title": "Da Zio Rocco",
         "iconText": "27",
         "description": "Baccalà fritto",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60087138459124,
         "lng": 13.491587787866594
     },
@@ -251,7 +251,7 @@ var pois:Array<Poi> = [
         "title": "Azienda agricola Le Ginestre",
         "iconText": "28",
         "description": "Kebab di bufala, arrosticini di bufala, spezzatino di bufala",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.6008663702818,
         "lng": 13.49169909954071
     },
@@ -260,7 +260,7 @@ var pois:Array<Poi> = [
         "title": "La fraschetta del pirata",
         "iconText": "29",
         "description": "Gnocchetti alla crema di scampi, cous cous con pesce e verdure, sangrìa",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.6008663702818,
         "lng": 13.4917688369751
     },
@@ -269,7 +269,7 @@ var pois:Array<Poi> = [
         "title": "Dolci e dolcezze",
         "iconText": "30",
         "description": "Dolci forno a legna, caffè, prosecchino",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60080419281243,
         "lng": 13.492014259099962
     },
@@ -278,7 +278,7 @@ var pois:Array<Poi> = [
         "title": "La Radicula",
         "iconText": "31",
         "description": "Grigliata mista alla brace: spuntature, bistecca di capocollo, salsiccia e pancetta",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.600774106918635,
         "lng": 13.492175191640856
     },
@@ -287,7 +287,7 @@ var pois:Array<Poi> = [
         "title": "Pizza da Damiano",
         "iconText": "32",
         "description": "Pizza e calzoni forno a legna, supplì, patatine fritte",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.600701900716324,
         "lng": 13.492580205202104
     },
@@ -296,7 +296,7 @@ var pois:Array<Poi> = [
         "title": "#ApeKorina",
         "iconText": "33",
         "description": "PanCiccia (panino provola di bufala e salsiccia), formaggi produzione propria)",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60078413555145,
         "lng": 13.492368310689928
     },
@@ -305,7 +305,7 @@ var pois:Array<Poi> = [
         "title": "Piubbuono Gluten free bakery",
         "iconText": "34",
         "description": "Calzoni ripieni fritti, pizza fritta, gnocchi di pizza con nutella",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60083528155459,
         "lng": 13.492261022329332
     },
@@ -314,7 +314,7 @@ var pois:Array<Poi> = [
         "title": "Le delizie del mare",
         "iconText": "35",
         "description": "Cartoccio di calamari e gamberi, panino con polpo alla piastra",
-        "icon": "cantina",
+        "icon": null,
         "lat": 41.60087138459124,
         "lng": 13.492176532745363
     },
@@ -323,7 +323,7 @@ var pois:Array<Poi> = [
         "title": "Ingresso",
         "iconText": null, 
         "description": "Compra il tuo bicchiere e bevi dove vuoi!!!",
-        "icon": "cassa",
+        "icon": "fa-wine-glass",
         "lat": 41.60101679939535,
         "lng": 13.491929769515993
     },
@@ -332,7 +332,7 @@ var pois:Array<Poi> = [
         "title": "Ingresso",
         "iconText": null, 
         "description": "Compra il tuo bicchiere e bevi dove vuoi!!!",
-        "icon": "cassa",
+        "icon": "fa-wine-glass",
         "lat": 41.60098069644007,
         "lng": 13.490899801254274
     },
@@ -341,7 +341,7 @@ var pois:Array<Poi> = [
         "title": "Ernicantus",
         "iconText": null, 
         "description": "",
-        "icon": "musica",
+        "icon": "fa-music",
         "lat": 41.601313645150746,
         "lng": 13.491320908069612
     },
@@ -350,7 +350,7 @@ var pois:Array<Poi> = [
         "title": "Cerroni band",
         "iconText": null, 
         "description": "",
-       "icon": "musica",
+       "icon": "fa-music",
         "lat": 41.60068284628836,
         "lng": 13.492412567138674
     },
@@ -359,7 +359,7 @@ var pois:Array<Poi> = [
         "title": "Strimpellaciocia",
         "iconText": null, 
         "description": "",
-        "icon": "musica",
+        "icon": "fa-music",
         "lat": 41.60112109670826,
         "lng": 13.490840792655947
     },
@@ -368,7 +368,7 @@ var pois:Array<Poi> = [
         "title": "jkerr",
         "iconText": null, 
         "description": "spettacolo dalle 23:00",
-        "icon":"musica",
+        "icon": "fa-music",
         "lat": 41.60092754483027,
         "lng": 13.491598516702654
     },
@@ -377,7 +377,7 @@ var pois:Array<Poi> = [
         "title": "Mercatino",
         "iconText": null, 
         "description": "Mercatino dell'artigianato",
-        "icon": "negozio",
+        "icon": "fa-store",
         "lat": 41.60094158488242,
         "lng": 13.492090702056887
     },
@@ -386,7 +386,7 @@ var pois:Array<Poi> = [
         "title": "Artisti di strada",
         "iconText": null, 
         "description": "Artisti di strada.",
-        "icon": "artista",
+        "icon": "fa-fire",
         "lat": 41.60093957916087,
         "lng": 13.491487205028534
     },
@@ -395,7 +395,7 @@ var pois:Array<Poi> = [
         "title": "Baby Park",
         "iconText": null, 
         "description": "I bambini si divertiranno qui. E tu potrai farti un giro nella festa.",
-        "icon": "babypark",
+        "icon": "fa-person-breastfeeding",
         "lat": 41.60129258519283,
         "lng": 13.490984290838243
     },
@@ -404,7 +404,7 @@ var pois:Array<Poi> = [
         "title": "Servizi Igenici",
         "iconText": null, 
         "description": "Sebac.",
-        "icon": "bagni",
+        "icon": "fa-restroom",
         "lat": 41.60187323580053,
         "lng": 13.491272628307344
     },
@@ -413,7 +413,7 @@ var pois:Array<Poi> = [
         "title": "Servizi Igenici",
         "iconText": null, 
         "description": "Sebac.",
-        "icon": "bagni",
+        "icon": "fa-restroom",
         "lat": 41.601137142433736,
         "lng": 13.490573912858965
     },
@@ -422,7 +422,7 @@ var pois:Array<Poi> = [
         "title": "Servizi Igenici",
         "iconText": null, 
         "description": "Bagni pubblici comunali.",
-        "icon": "bagni",
+        "icon": "fa-restroom",
         "lat": 41.600787144140995,
         "lng": 13.492290526628496
     },
@@ -431,7 +431,7 @@ var pois:Array<Poi> = [
         "title": "Punto primo soccorso",
         "iconText": null, 
         "description": "Se hai bisogno di aiuto perchè stai male o ti sei ferito, qui troverai chi ti potrà aiutare.",
-        "icon": "ambulanza",
+        "icon": "fa-ambulance",
         "lat": 41.600820238616706,
         "lng": 13.492627143859865
     },
@@ -440,7 +440,7 @@ var pois:Array<Poi> = [
         "title": "Punto primo soccorso",
         "iconText": null, 
         "description": "Se hai bisogno di aiuto perchè stai male o ti sei ferito, qui troverai chi ti potrà aiutare.",
-        "icon": "ambulanza",
+        "icon": "fa-ambulance",
         "lat": 41.60089043896353,
         "lng": 13.490620851516725
     },
@@ -449,7 +449,7 @@ var pois:Array<Poi> = [
         "title": "Mostra d'arte",
         "iconText": null, 
         "description": "Mostra di lavori dell'artista locale Fabiana Fioretti",
-        "icon": "arte",
+        "icon": "fa-palette",
         "lat": 41.601171239587146,
         "lng": 13.491231054067613
     }

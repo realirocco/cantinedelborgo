@@ -1,51 +1,54 @@
-.map-icon{
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
-    overflow: hidden;
-    color: transparent;
-    background-size: cover;
-    color: white;
-    font-weight: bold;
+:root{
+    --primary: #70243A;
+    --secondary: #DEA47E;
+    --bg-primary: #F8F2DC;
+    --contrast: #81ADC8;
+    --contrast-dark: #0E9594
+}
+
+.div-icon{
+    display: block;
     text-align: center;
 }
 
-.cantina{
-    background-image: url('/asset/cantina.png');
+.map-marker{
+    position: absolute;
+    top: 0rem;
+    transform-origin: center calc(100%);
+    color: var(--primary);
+    background-color: var(--bg-primary);
+    padding: 0.3em;
+    border: 0.2em solid #70243A;
+    border-radius: 99px;
+    transform: translate3d(-50%, -50%, 0);
 }
 
-.cassa{
-    background-image: url('/asset/cassa.png');
+.map-marker-full{
+    min-width: 2em;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 1000;
+    font-size: 0.9rem;
+    line-height: 1em;
 }
 
-.musica{
-    background-image: url('/asset/musica.png');
+.map-marker-mini *{
+    display: none;
 }
 
-.negozio{
-    background-image: url('/asset/negozio.png');
+.map-marker-icon{
+    margin-left: 0;
 }
-
-.artista{
-    background-image: url('/asset/artista.png');
-}
-
-.babypark{
-    background-image: url('/asset/baby-park.png');
-}
-
-.bagni{
-    background-image: url('/asset/bagno.png');
-}
-
-.qui{
-    background-image: url('/asset/qui.png');
-}
-
-.ambulanza{
-    background-image: url('/asset/ambulanza.png');
-}
-
-.arte{
-    background-image: url('/asset/arte.png');
-}
+/* .map-marker:before {
+    content: "";
+    position: absolute;
+    bottom: -0.4rem;
+    left: 50%;
+    width: .5rem;
+    height: .5rem;
+    transform: translate3d(-50%, 0, 0) scaleX(.8) rotate(45deg);
+    border-right: inherit;
+    border-bottom: inherit;
+    border-bottom-right-radius: .3rem;
+    background-color: inherit;
+} */

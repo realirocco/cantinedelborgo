@@ -17,7 +17,7 @@ export default class EventMap extends React.Component {
     }
     render() {
         return (
-            <MapContainer center={this.props.center} minZoom={18} zoom={18} maxZoom={21} maxBoundsViscosity={1}
+            <MapContainer center={this.props.center} minZoom={18} zoom={19} maxZoom={21} maxBoundsViscosity={1}
                           maxBounds={[[41.6025,13.48876476287842],[41.599477,13.49585]]} >
                 <ImageOverlay url={'/asset/map.png'}
                               opacity={1}

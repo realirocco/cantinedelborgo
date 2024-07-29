@@ -3,7 +3,7 @@ export interface Poi {
     title:string | null,
     iconText:string | null,
     description:string | null,
-    icon:string,
+    icon:string | null,
     lat:number,
     lng:number
 }
