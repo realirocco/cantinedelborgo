@@ -7,11 +7,11 @@ import { useLocation } from 'react-router';
 import { Poi } from '../util/Poi';
 import './ListPage.css'
 
-function filterPoi(poi:Poi, filter:string, type: string){
+function filterPoi(poi:Poi, filter:string){
   let title = poi.title?.toLowerCase() ?? ""
   let description = poi.description?.toLowerCase() ?? ""
   let icon = poi.icon;
-  return icon==type && (title.indexOf(filter) > -1 || description.indexOf(filter) > -1)
+  return (title.indexOf(filter) > -1 || description.indexOf(filter) > -1)
 }
 
 function highlight(text:string|undefined|null, search:string){
@@ -52,18 +52,18 @@ function ListPage(props:any){
           </IonToolbar>
         </IonHeader>
           {pois
-            .filter(poi => filterPoi(poi, searchValue, "cantina"))              
+            .filter(poi => filterPoi(poi, searchValue))              
             .map(poi => (
               <IonCard key={poi.id} onClick={(e) => {setPoi(poi); setIsOpen(true)}}>
                 <IonCardHeader>
-                  <IonCardSubtitle>Cantina numero {poi.iconText}</IonCardSubtitle>
+                  { poi.iconText != null ? (<IonCardSubtitle>Punto numero {poi.iconText}</IonCardSubtitle>) : (<span></span>) }
                   <IonCardTitle className='highlight'>{highlight(poi.title,searchValue)}</IonCardTitle>
                 </IonCardHeader>
                 <IonCardContent>
                   <p  className='highlight'>{highlight(poi.description,searchValue)}</p>
                 </IonCardContent>
               </IonCard>
-            ))};
+            ))}
       </IonContent>
       <IonModal ref={modal} isOpen={isOpen} onDidDismiss={(e) => setIsOpen(false)} initialBreakpoint={0.80} >
         <IonHeader>

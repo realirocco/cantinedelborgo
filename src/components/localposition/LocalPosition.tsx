@@ -34,7 +34,6 @@ export default function LocalPosition(){
             if(lastPositions.length > 10){
                 lastPositions.shift();
             }
-            console.log(e.latlng)
         }
     });
     map.locate({
