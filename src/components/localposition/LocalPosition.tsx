@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import L, { LatLng } from "leaflet";
+import { useState } from 'react';
+import { LatLng } from "leaflet";
 import { useMapEvents } from 'react-leaflet';
 import MarkerPoi from '../map/MarkerPoi';
 
@@ -34,6 +34,7 @@ export default function LocalPosition(){
             if(lastPositions.length > 10){
                 lastPositions.shift();
             }
+            console.log(e.latlng)
         }
     });
     map.locate({
@@ -42,11 +43,11 @@ export default function LocalPosition(){
         enableHighAccuracy: true
     })
     return(
-        <MarkerPoi poi={{
+        <MarkerPoi minZoomForFull={1} poi={{
             id: "0",
             lat: position?.lat ?? 0, 
             lng: position?.lng ?? 0,
-            icon: "qui",
+            icon: "fa-street-view",
             iconText: "",
             title: "tu sei qui",
             description: ""

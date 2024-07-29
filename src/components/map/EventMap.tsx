@@ -1,5 +1,5 @@
 import React from "react";
-import L, { LatLngExpression } from "leaflet";
+import { LatLngExpression } from "leaflet";
 import { ImageOverlay, MapContainer } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css'
 import './Map.css'

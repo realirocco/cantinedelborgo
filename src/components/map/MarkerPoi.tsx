@@ -1,15 +1,16 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ReactDOMServer  from "react-dom/server";
-import L, { DivIcon, Point } from "leaflet";
-import { useMapEvents, ZoomControl } from "react-leaflet";
+import L, { DivIcon } from "leaflet";
+import { useMapEvents } from "react-leaflet";
 import { Marker, Popup } from "react-leaflet";
 import { Poi } from '../../util/Poi'
 import './MarkerPoi.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faWineGlass, faMusic, faAmbulance, faPalette, IconDefinition, faRestroom, faStore, faFire, faPersonBreastfeeding } from "@fortawesome/free-solid-svg-icons";
+import { faWineGlass, faMusic, faAmbulance, faPalette, IconDefinition, faRestroom, faStore, faFire, faPersonBreastfeeding, faStreetView, faVanShuttle } from "@fortawesome/free-solid-svg-icons";
 
-export default function  MarkerPoi(props: Readonly<{ poi: Poi}>) {
+export default function  MarkerPoi(props: Readonly<{ poi: Poi, minZoomForFull?: number}>) {
     
+    var minZoomForFull = props.minZoomForFull || 18;
     const mapIcon:{ [id: string]: IconDefinition; } = {
         "fa-wine-glass": faWineGlass,
         "fa-music": faMusic,
@@ -17,16 +18,17 @@ export default function  MarkerPoi(props: Readonly<{ poi: Poi}>) {
         "fa-palette": faPalette,
         "fa-restroom": faRestroom,
         "fa-store": faStore,
-        "fa-fire":faFire,
-        "fa-person-breastfeeding": faPersonBreastfeeding
+        "fa-fire": faFire,
+        "fa-person-breastfeeding": faPersonBreastfeeding,
+        "fa-street-view": faStreetView,
+        "fa-van-shuttle": faVanShuttle
     }
     
     var [style, setStyle] = useState("full");
     
     var map = useMapEvents({
         zoomend(e) {
-            console.log(e.target._zoom)
-            if (e.target._zoom <= 18){
+            if (e.target._zoom <= minZoomForFull){
                 setStyle("mini");
             }else{
                 setStyle("full");
