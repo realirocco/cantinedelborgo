@@ -1,5 +1,5 @@
 import React from "react";
-import { BusDoc, client, databases } from '../appwrite/AppWrite'
+import { ShuttleDoc, client, databases } from '../appwrite/AppWrite'
 import { LatLng } from "leaflet";
 import MarkerPoi from "./MarkerPoi";
 
@@ -17,10 +17,10 @@ export default class Bus extends React.Component {
             '6682a66d0020df652f44', // databaseId
             '6682a68a001936a925f5', // collectionId
             this.props.id, // documentId
-        ) as BusDoc;
+        ) as ShuttleDoc;
         this.setState({name: busDoc.name, position: new LatLng(busDoc.lat,busDoc.lng)});
         client.subscribe('databases.6682a66d0020df652f44.collections.6682a68a001936a925f5.documents.12', response => {
-            let busDoc = response.payload as BusDoc;
+            let busDoc = response.payload as ShuttleDoc;
             this.setState({name: busDoc.name, position: new LatLng(busDoc.lat, busDoc.lng)})
         });
     }

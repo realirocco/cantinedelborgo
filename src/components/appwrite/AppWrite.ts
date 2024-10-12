@@ -6,7 +6,8 @@ export const client = new Client()
 
 export const databases = new Databases(client);
 
-export interface BusDoc extends Models.Document{
+export interface ShuttleDoc extends Models.Document{
+    name: string,
     lat: number,
     lng: number
 }

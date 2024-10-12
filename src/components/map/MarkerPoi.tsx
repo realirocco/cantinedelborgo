@@ -54,13 +54,13 @@ export default function  MarkerPoi(props: Readonly<{ poi: Poi, minZoomForFull?: 
     }
     
     return (
-        <Marker
-        icon={customIcon(props.poi)}
-        position={[props.poi.lat, props.poi.lng]}>
-        <Popup>
-        <h5>{props.poi.title}</h5>
-        <p>{props.poi.description}</p>
-        </Popup>
+        <Marker 
+            icon={customIcon(props.poi)}
+            position={[props.poi.lat, props.poi.lng]}>
+            <Popup>
+                <h5>{props.poi.title}</h5>
+                <p>{props.poi.description}</p>
+            </Popup>
         </Marker>
     )
 }
