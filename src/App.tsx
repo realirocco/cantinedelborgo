@@ -12,7 +12,7 @@ import {
 import { IonReactRouter } from '@ionic/react-router';
 import { bus, heart, list, map, square } from 'ionicons/icons';
 import EventMapPage from './pages/EventMapPage';
-import TransportPage from './pages/TransportPage';
+import ShuttlesPage from './pages/ShuttlesPage';
 import ListPage from './pages/ListPage';
 import SponsorPage from './pages/SponsorPage';
 
@@ -48,8 +48,8 @@ const App: React.FC = () => (
           <Route exact path="/list">
             <ListPage />
           </Route>
-          <Route exact path="/transport">
-            <TransportPage />
+          <Route exact path="/shuttles">
+            <ShuttlesPage />
           </Route>   
           <Route path="/sponsor">
             <SponsorPage />
@@ -67,7 +67,7 @@ const App: React.FC = () => (
             <IonIcon aria-hidden="true" icon={list} />
             <IonLabel>Menù</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="transport" href="/transport">
+          <IonTabButton tab="shuttles" href="/shuttles">
             <IonIcon aria-hidden="true" icon={bus} />
             <IonLabel>Navetta</IonLabel>
           </IonTabButton>
