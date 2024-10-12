@@ -23,7 +23,7 @@ export default class TransportMap extends React.Component {
                 <MapLibreTileLayer url="https://api.maptiler.com/maps/c25fe359-74e8-45c6-8d2d-bf5da6a2b36b/style.json?key=SwF3JvuRnEwDx2MufjH5" attribution='' />
                 <Polyline positions={track} weight={10} />
                 <LocalPosition />
-                <Shuttle id="12"/>
+                <Shuttle />
             </MapContainer>
         );
     }

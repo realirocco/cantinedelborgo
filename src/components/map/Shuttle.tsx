@@ -1,40 +1,42 @@
 import React from "react";
 import { ShuttleDoc, client, databases } from '../appwrite/AppWrite'
-import { LatLng } from "leaflet";
 import MarkerPoi from "./MarkerPoi";
 
-export default class Bus extends React.Component {
+export default class Shuttles extends React.Component {
 
-    declare props: Readonly<{id: string}>;
-    declare state: Readonly<{name: string, position:LatLng}>;
-
-    constructor(props: Readonly<{id: string}>){
-        super(props);
-    }
+    declare state: Readonly<{shuttles: Map<String,ShuttleDoc>}>;
 
     async componentDidMount(){
-        let busDoc = await databases.getDocument(
+        this.setState({shuttles: new Map<String,ShuttleDoc>()})
+        let busDoc = await databases.listDocuments(
             '6682a66d0020df652f44', // databaseId
             '6682a68a001936a925f5', // collectionId
-            this.props.id, // documentId
-        ) as ShuttleDoc;
-        this.setState({name: busDoc.name, position: new LatLng(busDoc.lat,busDoc.lng)});
-        client.subscribe('databases.6682a66d0020df652f44.collections.6682a68a001936a925f5.documents.12', response => {
-            let busDoc = response.payload as ShuttleDoc;
-            this.setState({name: busDoc.name, position: new LatLng(busDoc.lat, busDoc.lng)})
+        );
+        let shuttleDocList = busDoc.documents as ShuttleDoc[];
+        shuttleDocList.forEach( shuttleDoc => this.setState({shuttles: this.state.shuttles.set(shuttleDoc.$id,shuttleDoc)}))
+        client.subscribe(shuttleDocList.map(shuttleDoc => `databases.6682a66d0020df652f44.collections.6682a68a001936a925f5.documents.${shuttleDoc.$id}`), response => {
+            let shuttleDoc = response.payload as ShuttleDoc;
+            this.setState({shuttles: this.state.shuttles.set(shuttleDoc.$id,shuttleDoc)})
         });
     }
    
     render(){
-        return (<MarkerPoi minZoomForFull={1} poi={{
-            id: this.props.id,
-            iconText: null,
-            description: "",
-            lat: this.state?.position?.lat ?? 0, 
-            lng: this.state?.position?.lng ?? 0,
-            icon: "fa-van-shuttle",
-            title: this.state?.name ?? ""
-        }} />
-    );
+        return (
+            <div>
+                {Array.from(this.state?.shuttles?.values() ?? []).map( shuttle => (
+                    <MarkerPoi 
+                        key={shuttle.$id}
+                        minZoomForFull={1} 
+                        poi={{
+                            id: shuttle.$id,
+                            iconText: null,
+                            description: "",
+                            lat: shuttle.lat ?? 0, 
+                            lng: shuttle.lng ?? 0,
+                            icon: "fa-van-shuttle",
+                            title: shuttle.name ?? ""
+                        }} />)
+                )}
+            </div>);
     }
 }
