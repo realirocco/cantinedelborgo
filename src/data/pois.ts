@@ -365,7 +365,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "501",
-        "title": "Associazione Sogni",
+        "title": "Una finestra sui sogni",
         "iconText": null,
         "description": "Animazione per bambini",
         "icon": "fa-person-breastfeeding",
