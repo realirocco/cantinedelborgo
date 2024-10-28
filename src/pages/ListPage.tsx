@@ -52,6 +52,7 @@ function ListPage(props:any){
           </IonToolbar>
         </IonHeader>
           {pois
+            .filter(poi => Number.parseInt(poi.id) < 200)
             .filter(poi => filterPoi(poi, searchValue))              
             .map(poi => (
               <IonCard key={poi.id} onClick={(e) => {setPoi(poi); setIsOpen(true)}}>
