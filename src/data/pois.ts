@@ -5,19 +5,19 @@ var pois:Array<Poi> = [
         "id": "1",
         "title": "L'S'nnamb'l'",
         "iconText": "1",
-        "description": "Sagn’ i faciuor’ (oppure asparagi - ceci e guanciale), stinco di maiale arrosto",
+        "description": "Sagn’ i faciuor’, stinco di maiale arrosto",
         "icon": null,
         "lat": 41.60096665639647,
         "lng": 13.49175810813904
     },
     {
         "id": "2",
-        "title": "Dolci Creazioni",
+        "title": "Piùbbuono Gluten free backery",
         "iconText": "2",
-        "description": "Pasticceria assortita, caffè",
+        "description": "Menù per celiaci, vegani e vegetariani",
         "icon": null,
-        "lat": 41.60090899189957,
-        "lng": 13.491409420967104
+        "lat": 41.600885,
+        "lng":  13.491951
     },
     {
         "id": "3",
@@ -30,18 +30,18 @@ var pois:Array<Poi> = [
     },
     {
         "id": "4",
-        "title": "I du' P'rchitt'",
+        "title": "Dolci e dolcezze",
         "iconText": "4",
-        "description": "Tagliere con porchetta, salumi, formaggi, pane casereccio",
+        "description": "Dolci forno a legna, caffè e prosecchino",
         "icon": null,
         "lat": 41.60109401953744,
         "lng": 13.49157974123955
     },
     {
         "id": "5",
-        "title": "Da Nicolina e Daiano",
+        "title": "La patata sfiziosa",
         "iconText": "5",
-        "description": "Patate a spirale e patate chips, patate fritte",
+        "description": "Patate a spirale, chips, patate stick, patate capellini",
         "icon": null,
         "lat": 41.60118126815826,
         "lng": 13.49163204431534
@@ -49,9 +49,9 @@ var pois:Array<Poi> = [
     
     {
         "id": "6",
-        "title": "La R'messa",
+        "title": "I compari",
         "iconText": "6",
-        "description": "Cuzzutiello con polpette al ragù o ai funghi, cotiche e faciuor’/ sasicce i faciuor’",
+        "description": "Pappardelle al cinghiale parmigiana e melanzane",
         "icon": null,
         "lat": 41.60130963373073,
         "lng": 13.491528779268265
@@ -87,46 +87,46 @@ var pois:Array<Poi> = [
         "id": "10",
         "title": "Ess' Chiss'",
         "iconText": "10",
-        "description": "Polenta con sugo di salsicce e spuntature, focaccia con affettati e verdura",
+        "description": "Polenta con spuntature e salsicce, focaccia ripiena (mozzarella e ricotta / cicoria e patate)",
         "icon": null,
         "lat": 41.60118527958626,
         "lng": 13.491328954696657
     },
     {
         "id": "11",
-        "title": "Te'... Azz'ppat' i buat'",
+        "title": "Gl’ uerr’ ‘nguastit’",
         "iconText": "11",
-        "description": "Vin brulè con ciambelline al vino",
+        "description": "Tagliolini fatti a mano con guanciale e tartufo",
         "icon": null,
-        "lat": 41.60123040813413,
-        "lng": 13.491261899471285
+        "lat": 41.601112, 
+        "lng": 13.491120
     },
     {
         "id": "12",
-        "title": "Gl’ uerr’ ‘nguastit’",
+        "title": "Te'... Azz'ppat' i buat'",
         "iconText": "12",
-        "description": "Scialatielli alla curcuma con ragù di cinghiale bianco e tartufo",
+        "description": "Vin brulè con ciambelline al vino",
         "icon": null,
-        "lat": 41.60120633957919,
-        "lng": 13.490986973047258
+        "lat": 41.601181, 
+        "lng": 13.490996
     },
     {
         "id": "13",
-        "title": "Il bosco magico",
+        "title": "Pasticceria Le Rose",
         "iconText": "13",
-        "description": "Colata di caciocavallo dolce e affumicato su pane caldo",
+        "description": "Maritozzi, bombe, ciambele, pasticceria assortita, caffè",
         "icon": null,
-        "lat": 41.601323673699724,
-        "lng": 13.490856885910036
+        "lat": 41.601233173699724,
+        "lng": 13.490936885910036
     },
     {
         "id": "14",
-        "title": "I buongustai",
+        "title": "Gl' cagl'nar'",
         "iconText": "14",
-        "description": "Maritozzi con panna, bomboloni, pallotte cacio e ova, caffè",
+        "description": "Crepes in brodo, frittate in vari gusti",
         "icon": null,
-        "lat": 41.60153828427417,
-        "lng": 13.491087555885317
+        "lat": 41.601323673699724,
+        "lng": 13.490856885910036
     },
     {
         "id": "15",
@@ -139,9 +139,9 @@ var pois:Array<Poi> = [
     },
     {
         "id": "16",
-        "title": "Chiss' Rion",
+        "title": "La contadina",
         "iconText": "16",
-        "description": "Pappardelle al cinghiale",
+        "description": "Fettuccine al ragù, mortadella alla piastra",
         "icon": null,
         "lat": 41.60167667763058,
         "lng": 13.491125106811525
@@ -166,153 +166,126 @@ var pois:Array<Poi> = [
     },
     {
         "id": "19",
-        "title": "Mimi' Cocò i Carm'nucc'",
+        "title": "Chiss' Bulicchie",
         "iconText": "19",
-        "description": "Tris di polentine alla piastra (aglio, olio e peperoncino – broccoletti – funghi) Mortadella alla piastra con contorno",
-        "icon": null,
-        "lat": 41.601532768590765,
-        "lng": 13.490840122103693
-    },
-    {
-        "id": "20",
-        "title": "Cibo di strada",
-        "iconText": "20",
-        "description": "Pecora al sugo",
+        "description": "Pecora al sugo, zita al sugo di pecora",
         "icon": null,
         "lat": 41.60179050092951,
         "lng": 13.49065236747265
     },
     {
-        "id": "21",
+        "id": "20",
         "title": "Da Fabrizio",
-        "iconText": "21",
-        "description": "Panini con salsiccia, wurstel, hamburger, prosciutto crudo",
+        "iconText": "20",
+        "description": "Panini con salsiccia, wurstel, hamburger, prosciutto crudo e porchetta",
         "icon": null,
         "lat": 41.60165060354264,
         "lng": 13.490588665008547
     },
     {
-        "id": "22",
+        "id": "21",
         "title": "Peppino e Rosetta",
-        "iconText": "22",
+        "iconText": "21",
         "description": "Stese fritte semplici e farcite, panzerotti",
         "icon": null,
         "lat": 41.601297599469135,
         "lng": 13.490720093250276
     },
     {
-        "id": "23",
+        "id": "22",
         "title": "Gl' Zapp'",
-        "iconText": "23",
+        "iconText": "22",
         "description": "Arrosticini di pecora",
         "icon": null,
-        "lat": 41.6009340634263,
-        "lng": 13.490980938076973
+        "lat": 41.6009740634263,
+        "lng": 13.49084120938076973
+    },
+    {
+        "id": "23",
+        "title": "Da Ciccio e Paoletta ci fai pure la scarpetta",
+        "iconText": "23",
+        "description": "Fini fini pomodoro e basilico, code d' soreca funghi e salsiccia",
+        "icon": null,
+        "lat": 41.6009640634263,
+        "lng": 13.49100120938076973
     },
     {
         "id": "24",
-        "title": "Azienda agricola AgriTwins",
+        "title": "Azienda agricola Greco",
         "iconText": "24",
-        "description": "Agnello alla scottadito, poker di bruschette, m’nestra c’ l’ pan’ sott’",
+        "description": "Cartocci di salumi, taglieri, panini con porchetta",
         "icon": null,
         "lat": 41.60089495184036 ,
         "lng": 13.491130471229555 
     },    
     {
         "id": "25",
-        "title": "Gionzies",
-        "iconText": "25",
-        "description": "Tortiglioni alla carbonara tartufata, bruschettone con pancetta alla piastra e broccoletti",
-        "icon": null,
-        "lat": 41.60088341893227,
-        "lng": 13.491398692131042
-    },
-
-    {
-        "id": "26",
         "title": "Le bontà siciliane",
-        "iconText": "26",
+        "iconText": "25",
         "description": "Arancine, cannoli siciliani, pane e panelle, caffè",
-        "icon": null,
-        "lat": 41.60087840462377,
-        "lng": 13.491479158401491
-    },
-    {
-        "id": "27",
-        "title": "Da Zio Rocco",
-        "iconText": "27",
-        "description": "Baccalà fritto",
         "icon": null,
         "lat": 41.60087138459124,
         "lng": 13.491587787866594
     },
+
     {
-        "id": "28",
+        "id": "26",
         "title": "Azienda agricola Le Ginestre",
-        "iconText": "28",
+        "iconText": "26",
         "description": "Kebab di bufala, arrosticini di bufala, spezzatino di bufala",
         "icon": null,
         "lat": 41.6008663702818,
         "lng": 13.49169909954071
     },
     {
-        "id": "29",
-        "title": "La fraschetta del pirata",
-        "iconText": "29",
-        "description": "Gnocchetti alla crema di scampi, cous cous con pesce e verdure, sangrìa",
-        "icon": null,
-        "lat": 41.6008663702818,
-        "lng": 13.4917688369751
-    },
-    {
-        "id": "30",
-        "title": "Dolci e dolcezze",
-        "iconText": "30",
-        "description": "Dolci forno a legna, caffè, prosecchino",
-        "icon": null,
-        "lat": 41.60080419281243,
-        "lng": 13.492014259099962
-    },
-    {
-        "id": "31",
+        "id": "27",
         "title": "La Radicula",
-        "iconText": "31",
+        "iconText": "27",
         "description": "Grigliata mista alla brace: spuntature, bistecca di capocollo, salsiccia e pancetta",
         "icon": null,
         "lat": 41.600774106918635,
         "lng": 13.492175191640856
     },
+       {
+        "id": "28",
+        "title": "La fraschetta del pirata",
+        "iconText": "28",
+        "description": "Gnocchetti alla crema di scampi, cous cous con pesce e verdure, sangrìa",
+        "icon": null,
+        "lat": 41.60068284628836,
+        "lng": 13.492412567138674
+    },
     {
-        "id": "32",
-        "title": "Pizza da Damiano",
-        "iconText": "32",
-        "description": "Pizza e calzoni forno a legna, supplì, patatine fritte",
+        "id": "29",
+        "title": "Dalla padella alla brace",
+        "iconText": "29",
+        "description": "Hamburger gourmet, maialino al girarrosto",
         "icon": null,
         "lat": 41.600701900716324,
         "lng": 13.492580205202104
     },
     {
-        "id": "33",
+        "id": "30",
         "title": "#ApeKorina",
-        "iconText": "33",
+        "iconText": "30",
         "description": "PanCiccia (panino provola di bufala e salsiccia), formaggi produzione propria)",
         "icon": null,
         "lat": 41.60078413555145,
         "lng": 13.492368310689928
     },
     {
-        "id": "34",
-        "title": "Piubbuono Gluten free bakery",
-        "iconText": "34",
-        "description": "Calzoni ripieni fritti, pizza fritta, gnocchi di pizza con nutella",
+        "id": "31",
+        "title": "Pizza da Damiano",
+        "iconText": "31",
+        "description": "Pizze tonde, calzoni ripieni, patatine fritte, supplì",
         "icon": null,
         "lat": 41.60083528155459,
         "lng": 13.492261022329332
     },
     {
-        "id": "35",
+        "id": "32",
         "title": "Le delizie del mare",
-        "iconText": "35",
+        "iconText": "32",
         "description": "Cartoccio di calamari e gamberi, panino con polpo alla piastra",
         "icon": null,
         "lat": 41.60087138459124,
@@ -333,30 +306,21 @@ var pois:Array<Poi> = [
         "iconText": null, 
         "description": "Compra il tuo bicchiere e bevi dove vuoi!!!",
         "icon": "fa-wine-glass",
-        "lat": 41.60098069644007,
-        "lng": 13.490899801254274
+        "lat": 41.60099043896353,
+        "lng": 13.490590851516725
     },
     {
         "id": "201",
-        "title": "Ernicantus",
+        "title": "Mercatino",
         "iconText": null, 
-        "description": "",
-        "icon": "fa-music",
-        "lat": 41.601313645150746,
-        "lng": 13.491320908069612
+        "description": "Mercatino dell'artigianato",
+        "icon": "fa-store",
+        "lat": 41.60122158488242,
+        "lng": 13.492090702056887
     },
     {
-        "id": "202",
-        "title": "Cerroni band",
-        "iconText": null, 
-        "description": "",
-       "icon": "fa-music",
-        "lat": 41.60068284628836,
-        "lng": 13.492412567138674
-    },
-    {
-        "id": "203",
-        "title": "Strimpellaciocia",
+        "id": "301",
+        "title": "Spettacolo musicale",
         "iconText": null, 
         "description": "",
         "icon": "fa-music",
@@ -364,22 +328,31 @@ var pois:Array<Poi> = [
         "lng": 13.490840792655947
     },
     {
-        "id": "204",
-        "title": "jkerr",
+        "id": "302",
+        "title": "Spettacolo musicale",
         "iconText": null, 
-        "description": "spettacolo dalle 23:00",
+        "description": "",
         "icon": "fa-music",
-        "lat": 41.60092754483027,
-        "lng": 13.491598516702654
+        "lat": 41.601313645150746,
+        "lng": 13.491320908069612
     },
     {
-        "id": "301",
-        "title": "Mercatino",
+        "id": "303",
+        "title": "Spettacolo musicale",
         "iconText": null, 
-        "description": "Mercatino dell'artigianato",
-        "icon": "fa-store",
-        "lat": 41.60094158488242,
-        "lng": 13.492090702056887
+        "description": "",
+        "icon": "fa-music",
+        "lat": 41.60092954483027,
+        "lng": 13.491640516702654
+    },
+    {
+        "id": "304",
+        "title": "Spettacolo musicale",
+        "iconText": null, 
+        "description": "",
+       "icon": "fa-music",
+        "lat": 41.60070284628836,
+        "lng": 13.492312567138674
     },
     {
         "id": "401",
@@ -392,15 +365,15 @@ var pois:Array<Poi> = [
     },
     {
         "id": "501",
-        "title": "Baby Park",
-        "iconText": null, 
-        "description": "I bambini si divertiranno qui. E tu potrai farti un giro nella festa.",
+        "title": "Associazione Sogni",
+        "iconText": null,
+        "description": "Animazione per bambini",
         "icon": "fa-person-breastfeeding",
-        "lat": 41.60129258519283,
-        "lng": 13.490984290838243
+        "lat": 41.60153828427417,
+        "lng": 13.491087555885317
     },
     {
-        "id": "108",
+        "id": "601",
         "title": "Servizi Igenici",
         "iconText": null, 
         "description": "Sebac.",
@@ -409,16 +382,16 @@ var pois:Array<Poi> = [
         "lng": 13.491272628307344
     },
     {
-        "id": "109",
+        "id": "602",
         "title": "Servizi Igenici",
         "iconText": null, 
         "description": "Sebac.",
         "icon": "fa-restroom",
-        "lat": 41.601137142433736,
-        "lng": 13.490573912858965
+        "lat": 41.601127142433736,
+        "lng": 13.490543912858965
     },
     {
-        "id": "110",
+        "id": "603",
         "title": "Servizi Igenici",
         "iconText": null, 
         "description": "Bagni pubblici comunali.",
@@ -427,7 +400,7 @@ var pois:Array<Poi> = [
         "lng": 13.492290526628496
     },
     {
-        "id": "111",
+        "id": "701",
         "title": "Punto primo soccorso",
         "iconText": null, 
         "description": "Se hai bisogno di aiuto perchè stai male o ti sei ferito, qui troverai chi ti potrà aiutare.",
@@ -436,7 +409,7 @@ var pois:Array<Poi> = [
         "lng": 13.492627143859865
     },
     {
-        "id": "112",
+        "id": "702",
         "title": "Punto primo soccorso",
         "iconText": null, 
         "description": "Se hai bisogno di aiuto perchè stai male o ti sei ferito, qui troverai chi ti potrà aiutare.",
@@ -444,15 +417,6 @@ var pois:Array<Poi> = [
         "lat": 41.60089043896353,
         "lng": 13.490620851516725
     },
-    {
-        "id": "113",
-        "title": "Mostra d'arte",
-        "iconText": null, 
-        "description": "Mostra di lavori dell'artista locale Fabiana Fioretti",
-        "icon": "fa-palette",
-        "lat": 41.601171239587146,
-        "lng": 13.491231054067613
-    }
 ];
 
 export default pois;
