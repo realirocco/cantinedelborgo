@@ -1,5 +1,5 @@
 import { IonCol, IonContent, IonGrid, IonHeader, IonImg, IonModal, IonPage, IonRow, IonTitle, IonToolbar,IonCard, IonCardHeader, IonCardTitle, IonButtons, IonButton, IonIcon } from '@ionic/react';
-import sponsors from '../data/sponsor.json'
+import sponsors from '../data/sponsor'
 import { useRef, useState } from 'react';
 import { closeOutline } from 'ionicons/icons';
 
@@ -29,9 +29,8 @@ function SponsorPage(){
         <IonGrid fixed={true}>
           <IonRow class='ioion-align-items-center'>
             {sponsors
-              .filter((s) => s.value > 50)
               .map( (sponsor) => (
-                <IonCol size="6" key={sponsor.id}>
+                <IonCol size={sponsor.colSize} key={sponsor.id}>
                   <CardSponsor sponsor={sponsor} />
                 </IonCol>
               ))}
