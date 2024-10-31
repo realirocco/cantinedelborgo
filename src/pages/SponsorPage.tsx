@@ -35,15 +35,7 @@ function SponsorPage(){
                 </IonCol>
               ))}
           </IonRow>
-          <IonRow class='ioion-align-items-center'>
-            {sponsors
-              .filter((s) => s.value <= 50)
-              .map( (sponsor) => (
-                <IonCol size="4" key={sponsor.id}>
-                  <CardSponsor sponsor={sponsor} />
-                </IonCol>
-              ))}
-          </IonRow>
+  
         </IonGrid>
         <IonModal ref={modal} isOpen={isOpen} onDidDismiss={(e) => setIsOpen(false)} initialBreakpoint={0.7} breakpoints={[0.6,0.9]} >
           <IonHeader>
