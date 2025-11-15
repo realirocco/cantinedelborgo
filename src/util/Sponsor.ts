@@ -3,4 +3,5 @@ export interface Sponsor {
     name: string,
     colSize: string,
     image:string
+    contacts ?: Object
 }

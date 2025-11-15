@@ -22,26 +22,20 @@ import {Sponsor} from '../util/Sponsor'
     {
         "id": 4,
         "name": "Enzo Carlacci",
-        "colSize": "6",
+        "colSize": "4",
         "image": "enzo.jpg"
     },
     {
         "id": 5,
         "name": "Farmacia Del Popolo",
-        "colSize": "6",
+        "colSize": "4",
         "image": "farmacia-del-popolo.jpg"
     },
     {
         "id": 6,
         "name": "Farmacia Poce",
-        "colSize": "6",
+        "colSize": "4",
         "image": "farmacia-poce.jpg"
-    },
-    {
-        "id":7,
-        "name": "Il Boss del Cacio",
-        "colSize": "6",
-        "image": "boss-del-cacio.png"
     },
     {
         "id":8,
@@ -52,7 +46,7 @@ import {Sponsor} from '../util/Sponsor'
     {
         "id": 11,
         "name": "Aranova",
-        "colSize": "6",
+        "colSize": "12",
         "image": "aranova.jpg"
     },
     {
@@ -70,27 +64,15 @@ import {Sponsor} from '../util/Sponsor'
    {
         "id": 12,
         "name": "Commerciale Centro Italia",
-        "colSize": "6",
+        "colSize": "12",
         "image": "cci2.jpg"
-    },   
-    {
-        "id": 13,
-        "name": "Mizzoni Rent",
-        "colSize": "6",
-        "image": "mizzoni-rent.jpg"
     },
     {
         "id": 14,
         "name": "Valid Plastic",
-        "colSize": "6",
+        "colSize": "12",
         "image": "valid.jpg",
 
-    },
-    {
-        "id": 15,
-        "name": "Mizzoni Onoranze Funebri",
-        "colSize": "4",
-        "image": "mizzoni-onoranze-funebri.jpg"
     },
     {
         "id": 16,
@@ -107,7 +89,7 @@ import {Sponsor} from '../util/Sponsor'
     {
         "id": 18,
         "name": "Giorgio Paniccia Serramenti",
-        "colSize": "4",
+        "colSize": "6",
         "image": "paniccia.jpg"
     },
     {
@@ -131,8 +113,8 @@ import {Sponsor} from '../util/Sponsor'
     {
         "id": 22,
         "name": "Studio Dentistico Ragazzoni",
-        "colSize": "4",
-        "image": "studio-ragazzoni.png"
+        "colSize": "6",
+        "image": "studio-ragazzoni.jpg"
     },
     {
         "id": 23,
@@ -143,26 +125,14 @@ import {Sponsor} from '../util/Sponsor'
     {
         "id": 24,
         "name": "Termoidraulica Lisi",
-        "colSize": "4",
+        "colSize": "6",
         "image": "termoidraulica-lisi.jpg"
-    },
-    {
-        "id":25,
-        "name": "Tessitore",
-        "colSize": "4",
-        "image": "tessitore.png"
     },
     {
         "id":26,
         "name": "Colliwood Station",
         "colSize": "4",
         "image": "colliwood.png"
-    },
-    {
-        "id": 27,
-        "name": "3esse Costruzioni",
-        "colSize": "4",
-        "image": "3esse.jpg"
     },
     {
         "id": 28,
@@ -177,12 +147,6 @@ import {Sponsor} from '../util/Sponsor'
         "image": "autoservice-valeri.jpg"
     },
     {
-        "id": 30,
-        "name": "Bar dello Sport",
-        "colSize": "4",
-        "image": "bar-dello-sport.png"
-    },
-    {
         "id": 31,
         "name": "Lisi Caffe’",
         "colSize": "4",
@@ -195,22 +159,10 @@ import {Sponsor} from '../util/Sponsor'
         "image": "belli-barbershop.png"
     },
     {
-        "id":33,
-        "name": "Bistrot Granier",
-        "colSize": "4",
-        "image": "bistrot-granier.png"
-    },
-    {
         "id": 34,
         "name": "Centro Commerciale Sementilli",
         "colSize": "4",
         "image": "centro-commerciale-sementilli.jpg"
-    },
-    {
-        "id": 35,
-        "name": "Bar Civico 1",
-        "colSize": "4",
-        "image": "civico-1.jpg"
     },
     {
         "id": 36,
@@ -237,12 +189,6 @@ import {Sponsor} from '../util/Sponsor'
         "image": "eden-garden.jpg"
     },
     {
-        "id":40,
-        "name": "EdilDueP s.n.c.",
-        "colSize": "4",
-        "image": "edilduep.png"
-    },
-    {
         "id": 41,
         "name": "Bar Elisir",
         "colSize": "4",
@@ -255,12 +201,6 @@ import {Sponsor} from '../util/Sponsor'
         "image": "i-marchesi.jpg"
     },
     {
-        "id":43,
-        "name": "La Distilleria del cama",
-        "colSize": "4",
-        "image": "la-distilleria.png"
-    },
-    {
         "id": 44,
         "name": "La Protesi Sas",
         "colSize": "4",
@@ -269,7 +209,7 @@ import {Sponsor} from '../util/Sponsor'
     {
         "id": 45,
         "name": "Lisi Impianti",
-        "colSize": "4",
+        "colSize": "6",
         "image": "lisi-impianti.jpg"
     },
     {
@@ -280,9 +220,93 @@ import {Sponsor} from '../util/Sponsor'
     },
     {
         "id": 47,
-        "name": "Market One",
+        "name": "Air Service SRL",
+        "colSize": "12",
+        "image": "air-service.jpg"
+    },
+    {
+        "id": 48,
+        "name": "Archimede",
+        "colSize": "6",
+        "image": "archimede.jpg"
+    },
+    {
+        "id": 49,
+        "name": "Visca Edilizia SRL",
+        "colSize": "12",
+        "image": "visca.jpg"
+    },
+    {
+        "id": 50,
+        "name": "Erniflex",
+        "colSize": "12",
+        "image": "erniflex.jpg"
+    },
+    {
+        "id": 51,
+        "name": "Electralisi",
+        "colSize": "6",
+        "image": "electralisi.jpg"
+    },
+    {
+        "id": 52,
+        "name": "FR Impianti",
+        "colSize": "6",
+        "image": "fr-impianti.jpg"
+    },
+    {
+        "id": 53,
+        "name": "Consorzio Intesa",
+        "colSize": "6",
+        "image": "consorzio-intesa.jpg"
+    },
+    {
+        "id": 53,
+        "name": "Italservice",
+        "colSize": "6",
+        "image": "italservice.jpg"
+    },
+    {
+        "id": 54,
+        "name": "Pizza 54",
         "colSize": "4",
-        "image": "market-one.jpg"
+        "image": "pizza-54.jpg"
+    },
+    {
+        "id": 55,
+        "name": "Rossotono",
+        "colSize": "4",
+        "image": "rosso-tono.jpg"
+    },
+    {
+        "id": 56,
+        "name": "Ortofrutticola Compagnone",
+        "colSize": "4",
+        "image": "ortofrutticola.jpg"
+    },
+    {
+        "id": 57,
+        "name": "FP Impianti",
+        "colSize": "4",
+        "image": "fp-impianti.jpg"
+    },
+    {
+        "id": 58,
+        "name": "+Sport",
+        "colSize": "4",
+        "image": "piu-sport.jpg"
+    },
+    {
+        "id": 59,
+        "name": "Tipolito",
+        "colSize": "4",
+        "image": "tipolito.jpg"
+    },
+    {
+        "id": 60,
+        "name": "Fantauzzi",
+        "colSize": "4",
+        "image": "fantauzzi.jpg"
     }
 ]
 
