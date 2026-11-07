@@ -8,7 +8,12 @@ import './MarkerPoi.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWineGlass, faMusic, faAmbulance, faPalette, IconDefinition, faRestroom, faStore, faFire, faPersonBreastfeeding, faStreetView, faVanShuttle, faImage, faCamera } from "@fortawesome/free-solid-svg-icons";
 
-export default function  MarkerPoi(props: Readonly<{ poi: Poi, minZoomForFull?: number}>) {
+export default function  MarkerPoi(props: Readonly<{
+    poi: Poi;
+    minZoomForFull?: number;
+    draggable?: boolean;
+    onMove?: (id: string, lat: number, lng: number) => void;
+}>) {
     
     var minZoomForFull = props.minZoomForFull || 18;
     const mapIcon:{ [id: string]: IconDefinition; } = {
@@ -58,7 +63,14 @@ export default function  MarkerPoi(props: Readonly<{ poi: Poi, minZoomForFull?: 
     return (
         <Marker 
             icon={customIcon(props.poi)}
-            position={[props.poi.lat, props.poi.lng]}>
+            draggable={props.draggable ?? false}
+            position={[props.poi.lat, props.poi.lng]}
+            eventHandlers={props.onMove ? {
+                dragend: (e) => {
+                    const {lat, lng} = (e.target as L.Marker).getLatLng();
+                    props.onMove!(props.poi.id, lat, lng);
+                }
+            } : undefined}>
             <Popup>
                 <h5>{props.poi.title}</h5>
                 <p>{props.poi.description}</p>

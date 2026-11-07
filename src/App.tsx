@@ -1,4 +1,5 @@
 import { Redirect, Route } from 'react-router-dom';
+import React, { lazy, Suspense } from 'react';
 import {
   IonApp,
   IonIcon,
@@ -15,6 +16,10 @@ import EventMapPage from './pages/EventMapPage';
 import ShuttlesPage from './pages/ShuttlesPage';
 import ListPage from './pages/ListPage';
 import SponsorPage from './pages/SponsorPage';
+
+const PoiEditorPage = import.meta.env.DEV
+  ? lazy(() => import('./pages/dev/PoiEditorPage'))
+  : null;
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -50,7 +55,14 @@ const App: React.FC = () => (
           </Route>
           <Route exact path="/shuttles">
             <ShuttlesPage />
-          </Route>   
+          </Route> 
+          {import.meta.env.DEV && PoiEditorPage && (
+            <Route exact path="/dev/poi-editor">
+              <Suspense fallback={null}>
+                <PoiEditorPage />
+              </Suspense>
+            </Route>
+          )}
           <Route path="/sponsor">
             <SponsorPage />
           </Route>
