@@ -402,8 +402,8 @@ var pois:Array<Poi> = [
         "iconText": null,
         "description": "Animazione per bambini",
         "icon": "fa-person-breastfeeding",
-        "lat": 41.60160,
-        "lng": 13.49180
+        "lat": 41.60143,
+        "lng": 13.49207
     },
     {
         "id": "502",
@@ -411,8 +411,8 @@ var pois:Array<Poi> = [
         "iconText": null,
         "description": "Esposizione artistica di Fabiana Fioretti",
         "icon": "fa-palette",
-        "lat": 41.60154,
-        "lng": 13.49100
+        "lat": 41.60141,
+        "lng": 13.49105
     },
     {
         "id": "503",

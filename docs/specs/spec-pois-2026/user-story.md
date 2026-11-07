@@ -15,7 +15,7 @@ Allineare i punti di interesse dell'app alla nuova configurazione dell'edizione 
 ### Happy path
 
 1. Il visitatore apre la mappa e vede 35 cantine numerate da 1 a 35 nella posizione corretta.
-2. Il visitatore apre il menù e vede l'elenco delle 35 cantine con nome e descrizione aggiornati al 2026.
+2. Il visitatore apre il menù e vede l'elenco delle 35 cantine con nome e descrizione aggiornati al 2026, più le 2 card "Ingresso" (punti di acquisto del bicchiere).
 3. Il visitatore seleziona una cantina e la mappacentra il marker corrispondente.
 4. Sulla mappa compaiono anche ingressi, servizi igienici, primo soccorso, spettacoli, mercatino, animazione, scuola, Cantin'Arte e il nuovo Angolo foto ricordo.
 

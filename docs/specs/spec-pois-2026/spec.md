@@ -76,9 +76,9 @@ Invariato: `Poi` in `src/util/Poi.ts`. Nessuna migrazione.
 ## Coordinate
 
 - Cantine: coordinate 2025 invariate (piazzole fisiche 1–35).
-- 501: circa `41.60160, 13.49180`.
-- 502: circa `41.60154, 13.49100`.
-- 801: circa `41.60095, 13.49095`.
+- 501: `41.60143, 13.49207` (centro della casa grande NE, dove il poster mette il logo).
+- 502: `41.60141, 13.49105` (Via Principe Amedeo, tra le piazzole 17 e 13).
+- 801: `41.60095, 13.49095` (sulla via accanto alla piazzola 24).
 - Tutte le coordinate devono ricadere nei bounds di `map.png`.
 
 ## Gestione errori e idempotenza
@@ -91,3 +91,12 @@ Invariato: `Poi` in `src/util/Poi.ts`. Nessuna migrazione.
 - Nuovo `src/data/pois.test.ts` con Vitest.
 - Verifica conteggi, unicità, campi, coordinate, icone, presenza 801, elenco titoli 2026.
 - Verifica visiva con `npm run dev` e screenshot della mappa.
+
+## Esito verifiche (novembre 2026)
+
+- `npx vitest run src/data/pois.test.ts`: 8/8 test passati.
+- `npx vitest run` completo: `pois.test.ts` passa; `App.test.tsx` fallisce per `window.URL.createObjectURL` mancante in jsdom con `maplibre-gl` (problema preesistente, non introdotto da questa modifica).
+- `npx tsc --noEmit`: restano solo gli errori preesistenti in `MapLibreTileLayer.ts` (righe 22, 26, 30) e `ListPage.tsx` (riga 51). Nessun errore nei file toccati.
+- `npx eslint`: non eseguibile per configurazione preesistente (`package.json` con `"type": "module"` e `.eslintrc.js` CommonJS).
+- Mappa: verificati a schermo 501 sulla casa grande NE, 502 tra le piazzole 17 e 13, 801 accanto alla 24.
+- Menù: mostra 35 cantine + 2 ingressi, comportamento voluto (vedi `docs/domain/poi.md`).

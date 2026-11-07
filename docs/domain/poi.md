@@ -24,7 +24,7 @@ Tipo: `src/util/Poi.ts`.
 | Fascia | Categoria | Visibile in "Menù delle cantine" |
 |---|---|---|
 | `1`–`99` | Cantine / stand enogastronomici | Sì (`id < 200`) |
-| `101`–`199` | Ingressi e distribuzione bicchieri | No |
+| `101`–`199` | Ingressi e distribuzione bicchieri | Sì (`id < 200`): gli ingressi restano nel menù perché è lì che si acquista il bicchiere |
 | `201`–`299` | Mercatino artigianato | No |
 | `301`–`399` | Spettacoli musicali | No |
 | `401`–`499` | Artisti di strada | No |
@@ -41,6 +41,7 @@ Tipo: `src/util/Poi.ts`.
 4. `lat`/`lng` devono ricadere nei bounds della mappa (vedi `docs/architecture/mappa-poi.md`).
 5. I titoli e le descrizioni delle cantine sono trascritti fedelmente dal materiale ufficiale (poster 2026), inclusi i termini dialettali ciociari.
 6. Le incertezze su grafie o denominazioni sono marcate con un commento `// FIXME` sopra il POI interessato.
+7. Il "Menù delle cantine" filtra con `id < 200`: include quindi le 35 cantine e i 2 ingressi (101, 102). È un comportamento voluto: l'ingresso è il punto in cui si acquista il bicchiere. Il test dati usa invece il criterio stretto `1 ≤ id ≤ 35` per validare solo le cantine.
 
 ## Edizione 2026
 
