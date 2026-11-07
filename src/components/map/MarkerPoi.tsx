@@ -6,7 +6,7 @@ import { Marker, Popup } from "react-leaflet";
 import { Poi } from '../../util/Poi'
 import './MarkerPoi.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faWineGlass, faMusic, faAmbulance, faPalette, IconDefinition, faRestroom, faStore, faFire, faPersonBreastfeeding, faStreetView, faVanShuttle, faImage } from "@fortawesome/free-solid-svg-icons";
+import { faWineGlass, faMusic, faAmbulance, faPalette, IconDefinition, faRestroom, faStore, faFire, faPersonBreastfeeding, faStreetView, faVanShuttle, faImage, faCamera } from "@fortawesome/free-solid-svg-icons";
 
 export default function  MarkerPoi(props: Readonly<{ poi: Poi, minZoomForFull?: number}>) {
     
@@ -22,7 +22,8 @@ export default function  MarkerPoi(props: Readonly<{ poi: Poi, minZoomForFull?: 
         "fa-person-breastfeeding": faPersonBreastfeeding,
         "fa-street-view": faStreetView,
         "fa-van-shuttle": faVanShuttle,
-        "fa-image": faImage
+        "fa-image": faImage,
+        "fa-camera": faCamera
     }
     
     var [style, setStyle] = useState("full");

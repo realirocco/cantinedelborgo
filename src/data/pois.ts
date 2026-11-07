@@ -402,8 +402,8 @@ var pois:Array<Poi> = [
         "iconText": null,
         "description": "Animazione per bambini",
         "icon": "fa-person-breastfeeding",
-        "lat": 41.60153828427417,
-        "lng": 13.491087555885317
+        "lat": 41.60160,
+        "lng": 13.49180
     },
     {
         "id": "502",
@@ -411,8 +411,8 @@ var pois:Array<Poi> = [
         "iconText": null,
         "description": "Esposizione artistica di Fabiana Fioretti",
         "icon": "fa-palette",
-        "lat": 41.60119079529936,
-        "lng": 13.49124513566494
+        "lat": 41.60154,
+        "lng": 13.49100
     },
     {
         "id": "503",
@@ -467,6 +467,15 @@ var pois:Array<Poi> = [
         "icon": "fa-ambulance",
         "lat": 41.60089043896353,
         "lng": 13.490620851516725
+    },
+    {
+        "id": "801",
+        "title": "Angolo foto ricordo",
+        "iconText": null,
+        "description": "Angolo foto ricordo",
+        "icon": "fa-camera",
+        "lat": 41.60095,
+        "lng": 13.49095
     },
 ];
 
