@@ -5,7 +5,7 @@ var pois:Array<Poi> = [
         "id": "1",
         "title": "L'S'nnamb'l'",
         "iconText": "1",
-        "description": "Sagn’ i faciuor’ - tagliati malemale con ceci e asparagi - ricco tagliere",
+        "description": "Sagn’ i faciuor’ - Tagliati malemale con ceci e asparagi - Ricco tagliere",
         "icon": null,
         "lat": 41.600948604907316, 
         "lng": 13.491760790348055
@@ -14,7 +14,7 @@ var pois:Array<Poi> = [
         "id": "2",
         "title": "Gl' Uagliun",
         "iconText": "2",
-        "description": "Crepes alla nutella - caffè",
+        "description": "Crepes alla nutella - Caffè",
         "icon": null,
         "lat": 41.60096665639647, 
         "lng":  13.49163740873337
@@ -32,7 +32,7 @@ var pois:Array<Poi> = [
         "id": "4",
         "title": "Pizza G",
         "iconText": "4",
-        "description": "Hot dog - cuoppo di fritti misti",
+        "description": "Hot dog - Cuoppo di fritti misti",
         "icon": null,
         "lat": 41.601095022395846, 
         "lng": 13.491286039352419 
@@ -41,7 +41,7 @@ var pois:Array<Poi> = [
         "id": "5",
         "title": "Dolci e dolcezze",
         "iconText": "5",
-        "description": "Dolci forno a legna - semifreddi - caffè",
+        "description": "Dolci forno a legna - Semifreddi - Caffè",
         "icon": null,
         "lat": 41.601080480947786, 
         "lng": 13.491349741816522
@@ -57,7 +57,7 @@ var pois:Array<Poi> = [
         "id": "7",
         "title": "Prendi, mordi, via",
         "iconText": "7",
-        "description": "kebab di pollo e tacchino - cuoppo con polpettine e patatine fritte",
+        "description": "Kebab di pollo e tacchino - Cuoppo con polpettine - Patatine fritte",
         "icon": null,
         "lat": 41.60109301667906,
         "lng": 13.491570353507996
@@ -65,7 +65,7 @@ var pois:Array<Poi> = [
         "id": "8",
         "title": "La patata sfiziosa",
         "iconText": "8",
-        "description": "Patate a spirale - chips - patate stick - patate capellini",
+        "description": "Patate a spirale - Chips - Patate stick - Patate capellini",
         "icon": null,
         "lat": 41.60118126815826,
         "lng": 13.49163204431534
@@ -73,7 +73,7 @@ var pois:Array<Poi> = [
         "id": "9",
         "title": "Gl' cagl'nar'",
         "iconText": "9",
-        "description": "crepes ripiene al grana padano in brodo di gallina o vegetale - frittate miste",
+        "description": "Crepes ripiene al grana padano in brodo di gallina o vegetale - Frittate miste",
         "icon": null,
         "lat": 41.60130963373073,
         "lng": 13.491528779268265
@@ -81,7 +81,7 @@ var pois:Array<Poi> = [
         "id": "10",
         "title": "C'ulem' prua'",
         "iconText": "10",
-        "description": "bruschette di caciocavallo impiccato con lardo di Colonnata, tartufo, prosciutto",
+        "description": "Bruschette di caciocavallo impiccato con lardo di Colonnata, tartufo, prosciutto",
         "icon": null,
         "lat": 41.60127854521707,
         "lng": 13.491377234458925
@@ -97,7 +97,7 @@ var pois:Array<Poi> = [
         "id": "12",
         "title": "Ess' Chiss'",
         "iconText": "12",
-        "description": "polenta con spuntature e salsicce - focaccia ripiena (mozzarella e stracciata / cicoria e patate)",
+        "description": "Polenta con spuntature e salsicce - Focaccia ripiena con mozzarella e stracciata o cicoria e patate",
         "icon": null,
         "lat": 41.60118527958626,
         "lng": 13.491328954696657
@@ -105,7 +105,7 @@ var pois:Array<Poi> = [
         "id": "13",
         "title": "Pro loco Strangolagalli",
         "iconText": "13",
-        "description": "spezzatino di coratella - cannelloni",
+        "description": "Spezzatino di coratella - Cannelloni",
         "icon": null,
         "lat": 41.601116082418244, 
         "lng": 13.491132482886316
@@ -113,7 +113,7 @@ var pois:Array<Poi> = [
         "id": "14",
         "title": "La contadina",
         "iconText": "14",
-        "description": "Fettuccine al ragù - stesa monticiana in padellina con mortadella, prosciutto crudo o broccoletti",
+        "description": "Fettuccine al ragù - Stesa monticiana in padellina con mortadella, prosciutto crudo o broccoletti",
         "icon": null,
         "lat": 41.601194305298364, 
         "lng": 13.491025865077974
@@ -121,15 +121,15 @@ var pois:Array<Poi> = [
         "id": "15",
         "title": "Pasticceria Le Rose",
         "iconText": "15",
-        "description": "maritozzi - bombe - ciambele - pasticceria assortita - caffè",
+        "description": "Maritozzi - Bombe - Ciambele - Pasticceria assortita - Caffè",
         "icon": null,
         "lat": 41.60124996382841, 
         "lng": 13.490962833166122
     },{
         "id": "16",
-        "title": "Wine Ripi cantina diffusa'",
+        "title": "Wine Ripi cantina diffusa",
         "iconText": "16",
-        "description": "mezze maniche all'amatriciana - trippetta al sugo",
+        "description": "Mezze maniche all'amatriciana - Trippetta al sugo",
         "icon": null,
         "lat": 41.601323673699724, 
         "lng": 13.490856885910036
@@ -137,7 +137,7 @@ var pois:Array<Poi> = [
         "id": "17",
         "title": "Chiss' M'nzu'",
         "iconText": "17",
-        "description": "montanarine al pomodoro",
+        "description": "Montanarine al pomodoro",
         "icon": null,
         "lat": 41.60158892825425,  
         "lng": 13.49099434912205
@@ -145,7 +145,7 @@ var pois:Array<Poi> = [
         "id": "18",
         "title": "Gl' magnun'",
         "iconText": "18",
-        "description": "Gnocchi cozze guanciale e pachino - gnocchi alla norcina",
+        "description": "Gnocchi cozze guanciale e pachino - Gnocchi alla norcina",
         "icon": null,
         "lat": 41.601580404022755,
         "lng": 13.490895107388496
@@ -172,7 +172,7 @@ var pois:Array<Poi> = [
         "id": "21",
         "title": "Peppino e Rosetta",
         "iconText": "21",
-        "description": "Stese fritte semplici e farcite, panzerotti",
+        "description": "Stese fritte semplici e farcite - Panzerotti",
         "icon": null,
         "lat": 41.60140640916927, 
         "lng": 13.490674495697023
@@ -180,7 +180,7 @@ var pois:Array<Poi> = [
         "id": "22",
         "title": "Arte patata",
         "iconText": "22",
-        "description": "patate alla piastra farcite",
+        "description": "Patate alla piastra farcite",
         "icon": null,
         "lat": 41.601297599469135,
         "lng": 13.490720093250276
@@ -198,7 +198,7 @@ var pois:Array<Poi> = [
         "id": "24",
         "title": "Da Ciccio e Paoletta ci fai pure la scarpetta",
         "iconText": "24",
-        "description": "Code de soreca con funghi e salsiccia - cuoppo di bandidos e patatine",
+        "description": "Code de soreca con funghi e salsiccia - Cuoppo di bandidos e patatine",
         "icon": null,
         "lat": 41.60092202909468, 
         "lng": 13.490971550345423
@@ -214,7 +214,7 @@ var pois:Array<Poi> = [
         "id": "26",
         "title": "Zio Pie' Smoke and grill",
         "iconText": "26",
-        "description": "tortillas con pulled pork - tris di bombette con patate country",
+        "description": "Tortillas con pulled pork - Tris di bombette con patate country",
         "icon": null,
         "lat": 41.60088492322476, 
         "lng": 13.491387963294985
@@ -222,7 +222,7 @@ var pois:Array<Poi> = [
         "id": "27",
         "title": "Le bontà siciliane",
         "iconText": "27",
-        "description": "Arancine - cuoppo siculo - cannoli siciliani - caffè",
+        "description": "Arancine - Cuoppo siculo - Cannoli siciliani - Caffè",
         "icon": null,
         "lat": 41.60087389174578, 
         "lng": 13.491475135087969
@@ -230,7 +230,7 @@ var pois:Array<Poi> = [
         "id": "28",
         "title": "Azienda agricola Le Ginestre",
         "iconText": "28",
-        "description": "Kebab di bufala - arrosticini di bufala - cuzzutiello di bufala -  panino gourmet di bufala",
+        "description": "Kebab di bufala - Arrosticini di bufala - Cuzzutiello di bufala -  Panino gourmet di bufala",
         "icon": null,
         "lat": 41.600882416070604, 
         "lng": 13.4915978461504
@@ -238,7 +238,7 @@ var pois:Array<Poi> = [
         "id": "29",
         "title": "Dalla padella alla brace",
         "iconText": "29",
-        "description": "Hamburger gourmet, maialino al girarrosto",
+        "description": "Hamburger gourmet - Maialino al girarrosto",
         "icon": null,
         "lat": 41.60085132735115, 
         "lng": 13.491986095905306
@@ -246,7 +246,7 @@ var pois:Array<Poi> = [
         "id": "30",
         "title": "La Radicula",
         "iconText": "30",
-        "description": "bistecca di manzo, spuntature, pancetta, grigliata mista",
+        "description": "Bistecca di manzo - Spuntature - Pancetta - Grigliata mista",
         "icon": null,
         "lat": 41.600767086874725, 
         "lng": 13.492126911878588
@@ -254,7 +254,7 @@ var pois:Array<Poi> = [
         "id": "31",
         "title": "Il cinghiale con le ciocie",
         "iconText": "31",
-        "description": "Papperdelle al cinghiale - pappardelle al pomodoro e basilico",
+        "description": "Papperdelle al cinghiale - Pappardelle al pomodoro e basilico",
         "icon": null,
         "lat": 41.60068284628836,
         "lng": 13.492412567138674
@@ -270,7 +270,7 @@ var pois:Array<Poi> = [
         "id": "33",
         "title": "La fraschetta del pirata",
         "iconText": "33",
-        "description": "Gnocchetti alla crema di scampi, gnocchetti alla crema di patate, salsiccia e tartufo",
+        "description": "Gnocchetti alla crema di scampi - Gnocchetti alla crema di patate, salsiccia e tartufo",
         "icon": null,
         "lat": 41.60077210119187, 
         "lng": 13.492378368973732
@@ -279,7 +279,7 @@ var pois:Array<Poi> = [
         "id": "34",
         "title": "Pizza da Damiano",
         "iconText": "34",
-        "description": "Pizze tonde, calzoni ripieni, patatine fritte, supplì",
+        "description": "Pizze tonde - calzoni ripieni - patatine fritte - supplì",
         "icon": null,
         "lat": 41.60083528155459,
         "lng": 13.492261022329332
@@ -288,7 +288,7 @@ var pois:Array<Poi> = [
         "id": "35",
         "title": "Le delizie del mare",
         "iconText": "35",
-        "description": "Frittura di calamari e gamberi - baccalà fritto - panino con polpo - patatine fritte",
+        "description": "Frittura di calamari e gamberi - Baccalà fritto - Panino con polpo - Patatine fritte",
         "icon": null,
         "lat": 41.60087138459124,
         "lng": 13.492176532745363
