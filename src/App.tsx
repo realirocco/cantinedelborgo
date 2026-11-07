@@ -17,9 +17,19 @@ import ShuttlesPage from './pages/ShuttlesPage';
 import ListPage from './pages/ListPage';
 import SponsorPage from './pages/SponsorPage';
 
-const PoiEditorPage = import.meta.env.DEV
-  ? lazy(() => import('./pages/dev/PoiEditorPage'))
-  : null;
+const PoiEditorPage = lazy(() => import('./pages/dev/PoiEditorPage'));
+
+// Le rotte dev devono stare in un array (vuoto in produzione): figli `false`/`null`
+// dentro IonRouterOutlet fanno crashare matchRoute di @ionic/react-router < 9.
+const devRoutes = import.meta.env.DEV
+  ? [
+      <Route key="poi-editor" exact path="/dev/poi-editor">
+        <Suspense fallback={null}>
+          <PoiEditorPage />
+        </Suspense>
+      </Route>,
+    ]
+  : [];
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -56,13 +66,7 @@ const App: React.FC = () => (
           <Route exact path="/shuttles">
             <ShuttlesPage />
           </Route> 
-          {import.meta.env.DEV && PoiEditorPage && (
-            <Route exact path="/dev/poi-editor">
-              <Suspense fallback={null}>
-                <PoiEditorPage />
-              </Suspense>
-            </Route>
-          )}
+          {devRoutes}
           <Route path="/sponsor">
             <SponsorPage />
           </Route>

@@ -48,7 +48,7 @@ function ListPage(props:any){
             <IonTitle size="large">Menù delle cantine</IonTitle>
           </IonToolbar>
           <IonToolbar>
-            <IonSearchbar ref={searchbar} placeholder="Cerca il menù o la cantina" onIonInput={(e) => setSearchValue(e.detail.value?.toLowerCase())} />
+            <IonSearchbar ref={searchbar} placeholder="Cerca il menù o la cantina" onIonInput={(e) => setSearchValue(e.detail.value?.toLowerCase() ?? "")} />
           </IonToolbar>
         </IonHeader>
           {pois
