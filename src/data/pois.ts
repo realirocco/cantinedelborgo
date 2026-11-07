@@ -3,7 +3,7 @@ import {Poi} from '../util/Poi';
 var pois:Array<Poi> = [
     {
         "id": "1",
-        "title": "PANÇÒ",
+        "title": "Pangò",
         "iconText": "1",
         "description": "Pangoccioli - Crumble cookies - Caffè",
         "icon": null,
@@ -12,7 +12,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "2",
-        "title": "MAGNA CHE TE PASSA",
+        "title": "Magna che te passa",
         "iconText": "2",
         "description": "Pizza masardona - Spiedino di angus",
         "icon": null,
@@ -22,7 +22,7 @@ var pois:Array<Poi> = [
     {
         // FIXME: sul poster è "L' S'NNANB'L'" (N), mentre lo storico riporta "L'S'nnamb'l'" (M). Verificare la grafia dialettale.
         "id": "3",
-        "title": "L' S'NNANB'L'",
+        "title": "L' S'nnamb'l'",
         "iconText": "3",
         "description": "Sagn' i faciuor' - Ricco tagliere",
         "icon": null,
@@ -31,7 +31,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "4",
-        "title": "GL' UAGLIUN'",
+        "title": "Gl' uagliun'",
         "iconText": "4",
         "description": "Crepes alla nutella - Caffè",
         "icon": null,
@@ -39,9 +39,8 @@ var pois:Array<Poi> = [
         "lng": 13.4916253
     },
     {
-        // FIXME: il poster usa "semplici, con uva passa, con baccalà"; lo storico usava "semplici, con uva passa e con baccalà".
         "id": "5",
-        "title": "L' SCIORN'",
+        "title": "L' Sciorn'",
         "iconText": "5",
         "description": "P'zzell' d' Natal' semplici, con uva passa, con baccalà",
         "icon": null,
@@ -50,7 +49,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "6",
-        "title": "CHISS' M'NZU'",
+        "title": "Chiss' M'nzu'",
         "iconText": "6",
         "description": "Vin brulé - Sangria - Ciambelline al vino",
         "icon": null,
@@ -59,7 +58,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "7",
-        "title": "LA CASTAGNACCIA",
+        "title": "La castagnaccia",
         "iconText": "7",
         "description": "Caldarroste",
         "icon": null,
@@ -68,7 +67,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "8",
-        "title": "ZIO PIE'",
+        "title": "Zio Pie'",
         "iconText": "8",
         "description": "Tris di bombette con patate country - Bun con pulled pork",
         "icon": null,
@@ -77,7 +76,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "9",
-        "title": "LA PATATA SFIZIOSA",
+        "title": "La patata sfiziosa",
         "iconText": "9",
         "description": "Patate a spirale - Chips - Patate stick - Patate capellini",
         "icon": null,
@@ -86,7 +85,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "10",
-        "title": "TRATTORISTI NEL SANGUE",
+        "title": "Trattoristi nel sangue",
         "iconText": "10",
         "description": "Rigatoni all'amatriciana",
         "icon": null,
@@ -95,7 +94,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "11",
-        "title": "DOLCI E DOLCEZZE",
+        "title": "Dolci e dolcezze",
         "iconText": "11",
         "description": "Dolci forno a legna - Semifreddi - Caffè",
         "icon": null,
@@ -104,7 +103,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "12",
-        "title": "C' ULEM' PRUA'",
+        "title": "C' ulem' prua'",
         "iconText": "12",
         "description": "Bruschette di caciocavallo impiccato con prosciutto, guanciale, alici, salsa tartufata",
         "icon": null,
@@ -113,7 +112,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "13",
-        "title": "AGL' CUCUZZAR'",
+        "title": "Agl' cucuzzar'",
         "iconText": "13",
         "description": "Gnocchi di zucca con speck e noci",
         "icon": null,
@@ -122,7 +121,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "14",
-        "title": "ESS' CHISS'",
+        "title": "Ess' chiss'",
         "iconText": "14",
         "description": "Polenta con spuntature e salsicce - Focaccia ripiena con cicoria e patate/mortadella e stracciata",
         "icon": null,
@@ -131,7 +130,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "15",
-        "title": "PRO LOCO STRANGOLAGALLI",
+        "title": "Pro loco Strangolagalli",
         "iconText": "15",
         "description": "Spezzatino di coratella - Cannelloni",
         "icon": null,
@@ -140,7 +139,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "16",
-        "title": "LA CONTADINA",
+        "title": "La Contadina",
         "iconText": "16",
         "description": "Fettuccine al ragù - Stesa monticiana in padellina con mortadella, prosciutto crudo o broccoletti",
         "icon": null,
@@ -148,9 +147,8 @@ var pois:Array<Poi> = [
         "lng": 13.4910299
     },
     {
-        // FIXME: il poster indica "LA GINESTRA" (singolare) al numero 17 e "LE GINESTRE" (plurale) al numero 29. Verificare la denominazione ufficiale.
         "id": "17",
-        "title": "AZIENDA AGRICOLA LA GINESTRA",
+        "title": "Azienda agricola La Ginestra",
         "iconText": "17",
         "description": "Barchetta di formaggi con verdure grigliate - Spezzatino di cinghiale in casseruola",
         "icon": null,
@@ -159,7 +157,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "18",
-        "title": "GL' MAGNUN'",
+        "title": "Gl' magnun'",
         "iconText": "18",
         "description": "Gnocchi cozze, guanciale e pecorino - Gnocchi alla norcina",
         "icon": null,
@@ -168,7 +166,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "19",
-        "title": "CHISS' BULICCHIE",
+        "title": "Chiss' Bulicchie",
         "iconText": "19",
         "description": "Lasagna con zucca e salsiccia (variante senza lattosio) - Pecora al sugo",
         "icon": null,
@@ -177,7 +175,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "20",
-        "title": "SPACCANAPOLI",
+        "title": "Spaccanapoli",
         "iconText": "20",
         "description": "Pasta patate e provola - Trippetta al sugo",
         "icon": null,
@@ -186,7 +184,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "21",
-        "title": "DA FABRIZIO",
+        "title": "Da Fabrizio",
         "iconText": "21",
         "description": "Panini con salsiccia - wurstel - porchetta - prosciutto crudo",
         "icon": null,
@@ -195,7 +193,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "22",
-        "title": "SAVERIO'S BURGER",
+        "title": "Saverio's burger",
         "iconText": "22",
         "description": "Hamburger gourmet - Kebab di pollo e tacchino",
         "icon": null,
@@ -204,7 +202,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "23",
-        "title": "PEPPINO E ROSETTA",
+        "title": "Peppino e Rosetta",
         "iconText": "23",
         "description": "Stesa fritta strangolagallese semplice o farcita - Panzerotti",
         "icon": null,
@@ -213,7 +211,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "24",
-        "title": "ARTE PATATA",
+        "title": "Arte patata",
         "iconText": "24",
         "description": "Patate alla griglia farcite",
         "icon": null,
@@ -222,7 +220,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "25",
-        "title": "GL' ZAPP'",
+        "title": "Gl' zapp'",
         "iconText": "25",
         "description": "Arrosticini di pecora",
         "icon": null,
@@ -231,7 +229,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "26",
-        "title": "DA CICCIO E PAOLETTA FAI PURE LA SCARPETTA",
+        "title": "da Ciccio e Paoletta fai pure la scarpetta",
         "iconText": "26",
         "description": "Code de soreca con funghi e salsiccia - Cuoppo di banditos e patatine",
         "icon": null,
@@ -240,7 +238,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "27",
-        "title": "LA CANTINA DI GIGI",
+        "title": "La cantina di Gigi",
         "iconText": "27",
         "description": "M'nestra c' l' pan'sott' - Baccalà con patate",
         "icon": null,
@@ -250,7 +248,7 @@ var pois:Array<Poi> = [
     {
         // FIXME: il poster scrive "LE BONTA' SICILIANE" con l'apostrofo; lo storico usava "Le bontà siciliane".
         "id": "28",
-        "title": "LE BONTA' SICILIANE",
+        "title": "Le bonta' siciliane",
         "iconText": "28",
         "description": "Arancine - Cuoppo siculo - Cannoli siciliani - caffè",
         "icon": null,
@@ -258,9 +256,8 @@ var pois:Array<Poi> = [
         "lng": 13.4913276
     },
     {
-        // FIXME: il poster indica "LE GINESTRE" (plurale) qui e "LA GINESTRA" (singolare) al numero 17. Verificare la denominazione ufficiale.
         "id": "29",
-        "title": "AZIENDA AGRICOLA LE GINESTRE",
+        "title": "Azienda agricola Le Ginestre",
         "iconText": "29",
         "description": "Kebab di bufala - Arrosticini di bufala - Cuzzutiello di bufala",
         "icon": null,
@@ -268,9 +265,8 @@ var pois:Array<Poi> = [
         "lng": 13.4915623
     },
     {
-        // FIXME: il poster scrive "LA RADICOLA"; lo storico riportava "La Radicula".
         "id": "30",
-        "title": "LA RADICOLA",
+        "title": "La radicula",
         "iconText": "30",
         "description": "Grigliata mista",
         "icon": null,
@@ -278,9 +274,8 @@ var pois:Array<Poi> = [
         "lng": 13.4920652
     },
     {
-        // FIXME: il poster scrive "CIOCE"; lo storico riportava "Ciocie".
         "id": "31",
-        "title": "IL CINGHIALE CON LE CIOCE",
+        "title": "Il cinghiale con le ciocie",
         "iconText": "31",
         "description": "Pappardelle al cinghiale - Fini fini al pomodoro e basilico",
         "icon": null,
@@ -289,7 +284,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "32",
-        "title": "LA FRASCHETTA DEL PIRATA",
+        "title": "La fraschetta del pirata",
         "iconText": "32",
         "description": "Gnocchetti alla crema di scampi - Torciarelli alla crema di patate, salsiccia e tartufo",
         "icon": null,
@@ -298,7 +293,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "33",
-        "title": "GLI AMICI DELLA FREGNA",
+        "title": "Gli amici della fregna",
         "iconText": "33",
         "description": "Fregne fritte dolci per tutti i gusti",
         "icon": null,
@@ -307,7 +302,7 @@ var pois:Array<Poi> = [
     },
     {
         "id": "34",
-        "title": "PIZZA DA DAMIANO",
+        "title": "Pizza da Damiano",
         "iconText": "34",
         "description": "Pizze tonde - Calzoni ripieni - Patatine fritte - Supplì",
         "icon": null,
@@ -317,7 +312,7 @@ var pois:Array<Poi> = [
     {
         // FIXME: il poster cambia il nome da "Le delizie del mare" a "RISTORANTE VILLA STELLA" mantenendo lo stesso menù. Verificare che sia un cambio definitivo.
         "id": "35",
-        "title": "RISTORANTE VILLA STELLA",
+        "title": "Ristorante Villa Stella",
         "iconText": "35",
         "description": "Frittura mista di pesce",
         "icon": null,
