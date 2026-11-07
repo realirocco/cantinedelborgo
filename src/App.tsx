@@ -16,6 +16,7 @@ import EventMapPage from './pages/EventMapPage';
 import ShuttlesPage from './pages/ShuttlesPage';
 import ListPage from './pages/ListPage';
 import SponsorPage from './pages/SponsorPage';
+import PageViewTracker from './components/PageViewTracker';
 
 const PoiEditorPage = lazy(() => import('./pages/dev/PoiEditorPage'));
 
@@ -55,6 +56,7 @@ setupIonicReact();
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
+      <PageViewTracker />
       <IonTabs>
         <IonRouterOutlet>
           <Route exact path="/map">
